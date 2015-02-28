@@ -18,8 +18,15 @@ class Transition(object):
             :param configuration: is the current configuration
             :return : A new configuration or -1 if the pre-condition is not satisfied
         """
-        raise NotImplementedError('Please implement left_arc!')
-        return -1
+	s = conf.stack.pop(0)
+	if(id(s) != 0)
+		b = conf.buffer.pop(0)
+		conf.arcs.append((b, relation, s))
+     	else
+		print 'token s is root node 0!'
+		return -1
+	#raise NotImplementedError('Please implement left_arc!')
+        #return -1
 
     @staticmethod
     def right_arc(conf, relation):
@@ -44,6 +51,8 @@ class Transition(object):
             :param configuration: is the current configuration
             :return : A new configuration or -1 if the pre-condition is not satisfied
         """
+	conf.stack.pop(0)
+	
         raise NotImplementedError('Please implement reduce!')
         return -1
 
@@ -53,5 +62,7 @@ class Transition(object):
             :param configuration: is the current configuration
             :return : A new configuration or -1 if the pre-condition is not satisfied
         """
+	s = conf.buffer.pop(0)
+	conf.stack.push(s)
         raise NotImplementedError('Please implement shift!')
         return -1
