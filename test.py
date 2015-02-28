@@ -11,9 +11,9 @@ if __name__ == '__main__':
     subdata = random.sample(data, 200)
 
     try:
-        # tp = TransitionParser(Transition, FeatureExtractor)
-        # tp.train(subdata)
-        # tp.save('swedish.model')
+        tp = TransitionParser(Transition, FeatureExtractor)
+        tp.train(subdata)
+        tp.save('swedish.model')
 
         testdata = dataset.get_swedish_test_corpus().parsed_sents()
         tp = TransitionParser.load('badfeatures.model')
@@ -29,11 +29,11 @@ if __name__ == '__main__':
         print "UAS: {} \nLAS: {}".format(*ev.eval())
 
         # parsing arbitrary sentences (english):
-        # sentence = DependencyGraph.from_sentence('Hi, this is a test')
+        sentence = DependencyGraph.from_sentence('Hi, this is a test')
 
-        # tp = TransitionParser.load('english.model')
-        # parsed = tp.parse([sentence])
-        # print parsed[0].to_conll(10).encode('utf-8')
+        tp = TransitionParser.load('english.model')
+        parsed = tp.parse([sentence])
+        print parsed[0].to_conll(10).encode('utf-8')
     except NotImplementedError:
         print """
         This file is currently broken! We removed the implementation of Transition
