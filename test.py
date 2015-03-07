@@ -9,11 +9,11 @@ if __name__ == '__main__':
     data = dataset.get_danish_train_corpus().parsed_sents()
     random.seed(1234)
     subdata = random.sample(data, 200)
-  
+      
     data1 = dataset.get_english_train_corpus().parsed_sents()
     random.seed(1234)
     subdata1 = random.sample(data1, 200)
-    
+        
     data2 = dataset.get_korean_train_corpus().parsed_sents()
     random.seed(1234)
     subdata2 = random.sample(data2, 200)
@@ -21,19 +21,20 @@ if __name__ == '__main__':
     data3 = dataset.get_swedish_train_corpus().parsed_sents()
     random.seed(1234)
     subdata3 = random.sample(data3, 200)
-
+    
 
 
 
     try:
+    	
         tp = TransitionParser(Transition, FeatureExtractor)
         tp.train(subdata)
         tp.save('danish.model')
-
+    	
         tp1 = TransitionParser(Transition, FeatureExtractor)
         tp1.train(subdata1)
         tp1.save('english.model')
-
+    	
         tp2 = TransitionParser(Transition, FeatureExtractor)
         tp2.train(subdata2)
         tp2.save('korean.model')
@@ -54,7 +55,7 @@ if __name__ == '__main__':
         ev = DependencyEvaluator(testdata, parsed)
         print "UAS: {} \nLAS: {}".format(*ev.eval())
 
-
+    
 	testdata1 = dataset.get_english_dev_corpus().parsed_sents()
         tp1 = TransitionParser.load('english.model')
 	parsed1 = tp1.parse(testdata1)
@@ -67,7 +68,7 @@ if __name__ == '__main__':
         ev1 = DependencyEvaluator(testdata1, parsed1)
         print "UAS: {} \nLAS: {}".format(*ev1.eval())
 
-
+    	
 	testdata2 = dataset.get_korean_test_corpus().parsed_sents()
         tp2 = TransitionParser.load('korean.model')
 	parsed2 = tp2.parse(testdata2)
@@ -92,7 +93,7 @@ if __name__ == '__main__':
 
         ev3 = DependencyEvaluator(testdata3, parsed3)
         print "UAS: {} \nLAS: {}".format(*ev3.eval())
-
+    	
         #parsing arbitrary sentences (english):
         #sentence = DependencyGraph.from_sentence('Hi, this is a test')
 

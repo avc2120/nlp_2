@@ -118,7 +118,7 @@ class FeatureExtractor(object):
 		stack_0_form()
 		stack_0_feat()
 		stack_0_tag()
-		stack_0_ctag()
+		#stack_0_ctag()
 		stack_0_ldep()
 		stack_0_rdep()
 		stack_0_child()
@@ -157,7 +157,6 @@ class FeatureExtractor(object):
 						result.append('STK_1_CTAG_' + tag)
         	
 		#STK 1 STUFF-----------------
-		#stack_1_lemma()
 			stack_1_tag()
 			stack_1_form()
 			#stack_1_ctag()
@@ -210,7 +209,7 @@ class FeatureExtractor(object):
 			if 'ctag' in token and FeatureExtractor._check_informative(token['ctag']):
 				tags = token['ctag'].split("|")
 				for tag in tags:
-					result.append('STK_1_CTAG_' + tag)
+					result.append('BUF_0_CTAG_' + tag)
         	
 		#BUF[0] LEMMA	
 		def buf_0_lemma():	
@@ -235,8 +234,7 @@ class FeatureExtractor(object):
 		buf_0_form()
 		buf_0_feats()
 		buf_0_tag()
-		buf_0_ctag()
-		#buf_0_lemma()
+		#buf_0_ctag()
 		buf_0_ldep()
 		buf_0_rdep()
 		buf_0_child()

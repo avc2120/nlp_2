@@ -10,7 +10,7 @@
 5	beskattning	_	VN	VN	_	3	SS	_	_
 6	(	_	IR	IR	_	7	DT	_	_
 7	särbeskattning	_	VN	VN	_	3	OO	_	_
-8	)	_	IR	IR	_	3	TA	_	_
+8	)	_	IR	IR	_	3	AA	_	_
 9	av	_	PR	PR	_	3	OA	_	_
 10	arbetsinkomster	_	NN	NN	_	9	PA	_	_
 11	.	_	IP	IP	_	3	IP	_	_
@@ -19,11 +19,11 @@
 2	innebär	_	VV	VV	_	0	ROOT	_	_
 3	bl.	_	AB	AB	_	2	TA	_	_
 4	a.	_	ID	ID	_	3	HD	_	_
-5	att	_	UK	UK	_	0		_	_
-6	endast	_	AB	AB	_	9	TA	_	_
+5	att	_	UK	UK	_	9	UK	_	_
+6	endast	_	AB	AB	_	8	CA	_	_
 7	en	_	EN	EN	_	8	DT	_	_
 8	skatteskala	_	NN	NN	_	9	SS	_	_
-9	kommer	_	KV	KV	_	0		_	_
+9	kommer	_	KV	KV	_	2	OO	_	_
 10	att	_	IM	IM	_	11	IM	_	_
 11	finnas	_	VV	VV	_	9	VG	_	_
 12	för	_	PR	PR	_	11	OA	_	_
@@ -31,12 +31,12 @@
 14	av	_	PR	PR	_	13	ET	_	_
 15	statlig	_	AJ	AJ	_	16	AT	_	_
 16	inkomstskatt	_	NN	NN	_	14	PA	_	_
-17	.	_	IP	IP	_	9	IP	_	_
+17	.	_	IP	IP	_	2	IP	_	_
 
 1	Den	_	PO	PO	_	2	SS	_	_
 2	blir	_	BV	BV	_	0	ROOT	_	_
 3	gemensam	_	AJ	AJ	_	2	SP	_	_
-4	för	_	PR	PR	_	2	AA	_	_
+4	för	_	PR	PR	_	2	OA	_	_
 5	alla	_	PO	PO	_	6	DT	_	_
 6	inkomsttagare	_	NN	NN	_	4	PA	_	_
 7	oavsett	_	PR	PR	_	6	ET	_	_
@@ -72,8 +72,8 @@
 5	inkomst	_	NN	NN	_	3	SP	_	_
 6	av	_	PR	PR	_	5	ET	_	_
 7	tjänst	_	NN	NN	_	6	PA	_	_
-8	-	_	IT	IT	_	9	DT	_	_
-9	lön	_	NN	NN	_	7	AN	_	_
+8	-	_	IT	IT	_	3	SP	_	_
+9	lön	_	NN	NN	_	3	SP	_	_
 10	,	_	IK	IK	_	11	IK	_	_
 11	pension	_	NN	NN	_	9	CC	_	_
 12	,	_	IK	IK	_	13	IK	_	_
@@ -86,9 +86,9 @@
 19	.	_	IP	IP	_	3	IP	_	_
 20	(	_	IR	IR	_	29	DT	_	_
 21	Undantag	_	NN	NN	_	29	DT	_	_
-22	:	_	IQ	IQ	_	29	DT	_	_
+22	:	_	IQ	IQ	_	24	DT	_	_
 23	periodiskt	_	AJ	AJ	_	24	AT	_	_
-24	understöd	_	NN	NN	_	29	DT	_	_
+24	understöd	_	NN	NN	_	21	AN	_	_
 25	eller	_	++	++	_	27	++	_	_
 26	därmed	_	AB	AB	_	27	AA	_	_
 27	jämförlig	_	AJ	AJ	_	24	CC	_	_
@@ -96,40 +96,40 @@
 29	inkomst	_	NN	NN	_	3	SP	_	_
 30	.	_	IP	IP	_	3	IP	_	_
 31	)	_	IR	IR	_	3	SP	_	_
-32	*	_	PU	PU	_	0		_	_
-33	inkomst	_	NN	NN	_	36	SS	_	_
+32	*	_	PU	PU	_	33	DT	_	_
+33	inkomst	_	NN	NN	_	3	SP	_	_
 34	av	_	PR	PR	_	33	ET	_	_
 35	jordbruksfastighet	_	NN	NN	_	34	PA	_	_
-36	-	_	IT	IT	_	32	ET	_	_
+36	-	_	IT	IT	_	3	AA	_	_
 37	om	_	UK	UK	_	40	UK	_	_
 38	den	_	PO	PO	_	40	SS	_	_
 39	skattskyldige	_	AJ	AJ	_	40	TA	_	_
-40	arbetat	_	VV	VV	_	32	ET	_	_
+40	arbetat	_	VV	VV	_	3	MA	_	_
 41	i	_	PR	PR	_	40	RA	_	_
 42	jordbruket	_	NN	NN	_	41	PA	_	_
-43	i	_	PR	PR	_	40	AA	_	_
+43	i	_	PR	PR	_	40	TA	_	_
 44	ej	_	AB	AB	_	45	AA	_	_
-45	blott	_	AB	AB	_	47	VA	_	_
+45	blott	_	AB	AB	_	47	CA	_	_
 46	ringa	_	PO	PO	_	47	DT	_	_
 47	omfattning	_	VN	VN	_	43	PA	_	_
-48	.	_	IP	IP	_	32	IP	_	_
-49	*	_	PU	PU	_	0		_	_
-50	inkomst	_	NN	NN	_	0		_	_
+48	.	_	IP	IP	_	3	IP	_	_
+49	*	_	PU	PU	_	50	DT	_	_
+50	inkomst	_	NN	NN	_	3	SP	_	_
 51	av	_	PR	PR	_	50	ET	_	_
 52	rörelse	_	VN	VN	_	51	PA	_	_
-53	-	_	IT	IT	_	0		_	_
+53	-	_	IT	IT	_	3	MS	_	_
 54	om	_	UK	UK	_	57	UK	_	_
 55	den	_	PO	PO	_	57	SS	_	_
 56	skattskyldige	_	AJ	AJ	_	57	TA	_	_
-57	arbetat	_	VV	VV	_	0		_	_
+57	arbetat	_	VV	VV	_	3	OO	_	_
 58	i	_	PR	PR	_	57	RA	_	_
 59	rörelsen	_	VN	VN	_	58	PA	_	_
-60	i	_	PR	PR	_	59	ET	_	_
+60	i	_	PR	PR	_	57	AA	_	_
 61	ej	_	AB	AB	_	62	AA	_	_
-62	blott	_	AB	AB	_	64	VA	_	_
+62	blott	_	AB	AB	_	64	CA	_	_
 63	ringa	_	PO	PO	_	64	DT	_	_
 64	omfattning	_	VN	VN	_	60	PA	_	_
-65	.	_	IP	IP	_	57	IP	_	_
+65	.	_	IP	IP	_	3	IP	_	_
 
 1	Makars	_	NN	NN	_	3	DT	_	_
 2	övriga	_	PO	PO	_	3	DT	_	_
@@ -140,7 +140,7 @@
 7	skall	_	SV	SV	_	4	+F	_	_
 8	som	_	UK	UK	_	10	UK	_	_
 9	tidigare	_	AJ	AJ	_	10	SS	_	_
-10	sambeskattas	_	VV	VV	_	4	MS	_	_
+10	sambeskattas	_	VV	VV	_	4	OO	_	_
 11	.	_	IP	IP	_	4	IP	_	_
 
 1	Sådana	_	PO	PO	_	2	DT	_	_
@@ -151,12 +151,12 @@
 6	inkomst	_	NN	NN	_	3	SP	_	_
 7	av	_	PR	PR	_	6	ET	_	_
 8	kapital	_	NN	NN	_	7	PA	_	_
-9	,	_	IK	IK	_	10	IK	_	_
-10	tillfällig	_	AJ	AJ	_	3	SP	_	_
-11	förvärvsverksamhet	_	AN	AN	_	3	SP	_	_
+9	,	_	IK	IK	_	11	IK	_	_
+10	tillfällig	_	AJ	AJ	_	11	AT	_	_
+11	förvärvsverksamhet	_	AN	AN	_	6	CC	_	_
 12	,	_	IK	IK	_	14	IK	_	_
 13	periodiskt	_	AJ	AJ	_	14	AT	_	_
-14	understöd	_	NN	NN	_	3	SP	_	_
+14	understöd	_	NN	NN	_	11	CC	_	_
 15	.	_	IP	IP	_	3	IP	_	_
 
 1	B-inkomster	_	NN	NN	_	11	SS	_	_
@@ -234,23 +234,23 @@
 23	1972	_	RO	RO	_	22	OO	_	_
 24	.	_	IP	IP	_	8	IP	_	_
 
-1	I	_	PR	PR	_	4	AA	_	_
+1	I	_	PR	PR	_	0		_	_
 2	självdeklarationen	_	VN	VN	_	1	PA	_	_
-3	1971	_	RO	RO	_	2	ET	_	_
-4	-	_	IT	IT	_	0	ROOT	_	_
-5	som	_	PO	PO	_	4	SS	_	_
+3	1971	_	RO	RO	_	0		_	_
+4	-	_	IT	IT	_	11	SS	_	_
+5	som	_	PO	PO	_	7	SS	_	_
 6	alltså	_	AB	AB	_	7	TA	_	_
-7	avser	_	VV	VV	_	5	ET	_	_
+7	avser	_	VV	VV	_	4	ET	_	_
 8	1970	_	RO	RO	_	9	DT	_	_
-9	års	_	NN	NN	_	10	DT	_	_
+9	års	_	NN	NN	_	7	OO	_	_
 10	inkomster	_	NN	NN	_	7	OO	_	_
-11	-	_	IT	IT	_	0		_	_
+11	-	_	IT	IT	_	3	ET	_	_
 12	får	_	FV	FV	_	0		_	_
-13	avdrag	_	NN	NN	_	12	OO	_	_
-14	göras	_	GV	GV	_	12	OO	_	_
+13	avdrag	_	NN	NN	_	0		_	_
+14	göras	_	GV	GV	_	0		_	_
 15	som	_	UK	UK	_	16	UK	_	_
 16	tidigare	_	AJ	AJ	_	14	OO	_	_
-17	.	_	IP	IP	_	12	IP	_	_
+17	.	_	IP	IP	_	14	IP	_	_
 
 1	Förvärvsavdragen	_	NN	NN	_	2	SS	_	_
 2	ändras	_	VV	VV	_	0	ROOT	_	_
@@ -263,7 +263,7 @@
 6	,	_	IK	IK	_	2	IK	_	_
 7	om	_	UK	UK	_	9	UK	_	_
 8	det	_	PO	PO	_	9	SS	_	_
-9	finns	_	VV	VV	_	2	MS	_	_
+9	finns	_	VV	VV	_	2	OO	_	_
 10	hemmavarande	_	AJ	AJ	_	11	AT	_	_
 11	barn	_	NN	NN	_	9	ES	_	_
 12	under	_	AB	AB	_	9	TA	_	_
@@ -298,7 +298,7 @@
 2	det	_	ID	ID	_	1	HD	_	_
 3	gäller	_	ID	ID	_	1	HD	_	_
 4	inkomståret	_	NN	NN	_	5	DT	_	_
-5	1971	_	RO	RO	_	3	PA	_	_
+5	1971	_	RO	RO	_	1	PA	_	_
 6	(	_	IR	IR	_	0	ROOT	_	_
 7	taxeringsåret	_	NN	NN	_	6	SS	_	_
 8	1972	_	RO	RO	_	0		_	_
@@ -312,10 +312,10 @@
 16	den	_	PO	PO	_	18	DT	_	_
 17	1	_	RO	RO	_	18	DT	_	_
 18	november	_	NN	NN	_	15	PA	_	_
-19	1955	_	RO	RO	_	18	ET	_	_
-20	.	_	IP	IP	_	11	ET	_	_
+19	1955	_	RO	RO	_	11	ET	_	_
+20	.	_	IP	IP	_	11	IP	_	_
 
-1	Med	_	PR	PR	_	3	AA	_	_
+1	Med	_	PR	PR	_	3	TA	_	_
 2	makar	_	NN	NN	_	1	PA	_	_
 3	likställs	_	VV	VV	_	0	ROOT	_	_
 4	de	_	PO	PO	_	3	SS	_	_
@@ -332,21 +332,21 @@
 15	varit	_	AV	AV	_	10	OO	_	_
 16	gifta	_	AJ	AJ	_	15	SP	_	_
 17	med	_	PR	PR	_	15	OA	_	_
-18	varandra	_	PO	PO	_	23	SS	_	_
+18	varandra	_	PO	PO	_	0		_	_
 19	eller	_	++	++	_	20	++	_	_
 20	har	_	HV	HV	_	18	CC	_	_
 21	eller	_	++	++	_	22	++	_	_
 22	har	_	HV	HV	_	18	CC	_	_
 23	haft	_	HV	HV	_	0		_	_
 24	barn	_	NN	NN	_	23	OO	_	_
-25	gemensamt	_	AJ	AJ	_	23	AA	_	_
+25	gemensamt	_	AJ	AJ	_	23	OO	_	_
 26	.	_	IP	IP	_	23	IP	_	_
 
 1	Höjt	_	TP	TP	_	2	AT	_	_
 2	avdrag	_	NN	NN	_	0		_	_
 3	för	_	PR	PR	_	2	ET	_	_
 4	underhållsbidrag	_	NN	NN	_	3	PA	_	_
-5	till	_	PR	PR	_	4	ET	_	_
+5	till	_	PR	PR	_	2	ET	_	_
 6	icke	_	AB	AB	_	7	AA	_	_
 7	hemmavarande	_	AJ	AJ	_	8	AT	_	_
 8	barn	_	NN	NN	_	5	PA	_	_
@@ -385,7 +385,7 @@
 3	gäller	_	ID	ID	_	1	HD	_	_
 4	1972	_	RO	RO	_	5	DT	_	_
 5	års	_	NN	NN	_	6	DT	_	_
-6	taxering	_	VN	VN	_	3	PA	_	_
+6	taxering	_	VN	VN	_	1	PA	_	_
 7	skall	_	SV	SV	_	0	ROOT	_	_
 8	barnet	_	NN	NN	_	7	SS	_	_
 9	vara	_	AV	AV	_	7	VG	_	_
@@ -394,7 +394,7 @@
 12	den	_	PO	PO	_	14	DT	_	_
 13	1	_	RO	RO	_	14	DT	_	_
 14	november	_	NN	NN	_	11	PA	_	_
-15	1953	_	RO	RO	_	14	ET	_	_
+15	1953	_	RO	RO	_	9	SP	_	_
 16	.	_	IP	IP	_	7	IP	_	_
 
 1	Kravet	_	NN	NN	_	4	SS	_	_
@@ -408,7 +408,7 @@
 2	måste	_	MV	MV	_	0	ROOT	_	_
 3	inte	_	AB	AB	_	2	NA	_	_
 4	längre	_	AB	AB	_	5	TA	_	_
-5	styrkas	_	VV	VV	_	2	VG	_	_
+5	styrkas	_	VV	VV	_	2	+F	_	_
 6	med	_	PR	PR	_	5	OA	_	_
 7	intyg	_	NN	NN	_	6	PA	_	_
 8	från	_	PR	PR	_	7	ET	_	_
@@ -417,18 +417,18 @@
 11	barnavårdsman	_	NN	NN	_	9	CC	_	_
 12	eller	_	++	++	_	13	++	_	_
 13	kommunal	_	AJ	AJ	_	11	CC	_	_
-14	förtroendeman	_	NN	NN	_	5	OO	_	_
+14	förtroendeman	_	NN	NN	_	5	SS	_	_
 15	.	_	IP	IP	_	2	IP	_	_
 
 1	Det	_	PO	PO	_	2	SS	_	_
 2	räcker	_	VV	VV	_	0	ROOT	_	_
 3	med	_	PR	PR	_	2	OA	_	_
 4	att	_	UK	UK	_	10	UK	_	_
-5	intyg	_	NN	NN	_	9	DT	_	_
-6	eller	_	++	++	_	7	++	_	_
-7	annat	_	PO	PO	_	5	CC	_	_
+5	intyg	_	NN	NN	_	10	SS	_	_
+6	eller	_	++	++	_	9	++	_	_
+7	annat	_	PO	PO	_	9	DT	_	_
 8	skriftligt	_	AJ	AJ	_	9	AT	_	_
-9	bevis	_	NN	NN	_	10	SS	_	_
+9	bevis	_	NN	NN	_	5	CC	_	_
 10	bifogas	_	VV	VV	_	3	PA	_	_
 11	deklarationen	_	VN	VN	_	10	OO	_	_
 12	.	_	IP	IP	_	2	IP	_	_
@@ -440,7 +440,7 @@
 5	dom	_	NN	NN	_	4	OO	_	_
 6	eller	_	++	++	_	7	++	_	_
 7	avtal	_	NN	NN	_	5	CC	_	_
-8	om	_	PR	PR	_	7	ET	_	_
+8	om	_	PR	PR	_	4	OA	_	_
 9	underhållsskyldighet	_	AN	AN	_	8	PA	_	_
 10	jämte	_	PR	PR	_	9	ET	_	_
 11	kvitto	_	NN	NN	_	10	PA	_	_
@@ -456,7 +456,7 @@
 
 1	Ortsavdraget	_	NN	NN	_	2	SS	_	_
 2	ersätts	_	VV	VV	_	0	ROOT	_	_
-3	med	_	PR	PR	_	2	AA	_	_
+3	med	_	PR	PR	_	2	OA	_	_
 4	grundavdrag	_	NN	NN	_	3	PA	_	_
 5	.	_	IP	IP	_	2	IP	_	_
 
@@ -468,8 +468,8 @@
 6	ersätter	_	VV	VV	_	4	ET	_	_
 7	tidigare	_	AJ	AJ	_	8	AT	_	_
 8	ortsavdrag	_	NN	NN	_	6	OO	_	_
-9	-	_	IT	IT	_	10	SS	_	_
-10	uppgår	_	VV	VV	_	0	ROOT	_	_
+9	-	_	IT	IT	_	4	TA	_	_
+10	uppgår	_	VV	VV	_	4	VG	_	_
 11	till	_	PR	PR	_	10	OA	_	_
 12	4500	_	RO	RO	_	13	DT	_	_
 13	kr	_	NN	NN	_	11	PA	_	_
@@ -486,7 +486,7 @@
 24	högst	_	AB	AB	_	25	AA	_	_
 25	30000	_	RO	RO	_	26	DT	_	_
 26	kr	_	NN	NN	_	23	PA	_	_
-27	.	_	IP	IP	_	10	IP	_	_
+27	.	_	IP	IP	_	4	IP	_	_
 
 1	Vid	_	PR	PR	_	5	AA	_	_
 2	högre	_	AJ	AJ	_	3	AA	_	_
@@ -518,10 +518,10 @@
 10	kr	_	NN	NN	_	8	PA	_	_
 11	.	_	IP	IP	_	2	IP	_	_
 
-1	Exempel	_	NN	NN	_	2	SS	_	_
-2	:	_	IQ	IQ	_	0	ROOT	_	_
+1	Exempel	_	NN	NN	_	0		_	_
+2	:	_	IQ	IQ	_	0		_	_
 
-1	Statligt	_	AJ	AJ	_	2	AA	_	_
+1	Statligt	_	AJ	AJ	_	3	AT	_	_
 2	taxerad	_	TP	TP	_	3	AT	_	_
 3	inkomst	_	NN	NN	_	4	SS	_	_
 4	uppgår	_	VV	VV	_	0	ROOT	_	_
@@ -534,17 +534,17 @@
 2	blir	_	BV	BV	_	0	ROOT	_	_
 3	2500	_	RO	RO	_	4	DT	_	_
 4	kr	_	NN	NN	_	2	SP	_	_
-5	(	_	IR	IR	_	0		_	_
-6	=	_	IG	IG	_	0		_	_
+5	(	_	IR	IR	_	2	TA	_	_
+6	=	_	IG	IG	_	2	TA	_	_
 7	4500	_	RO	RO	_	14	DT	_	_
 8	minskat	_	TP	TP	_	14	AT	_	_
-9	med	_	PR	PR	_	8	OA	_	_
+9	med	_	PR	PR	_	8	ET	_	_
 10	1/5	_	NN	NN	_	9	PA	_	_
 11	av	_	PR	PR	_	10	ET	_	_
 12	10000	_	RO	RO	_	13	DT	_	_
 13	kr	_	NN	NN	_	11	PA	_	_
-14	)	_	IR	IR	_	6	ET	_	_
-15	.	_	IP	IP	_	6	IP	_	_
+14	)	_	IR	IR	_	2	SP	_	_
+15	.	_	IP	IP	_	2	IP	_	_
 
 1	Grundavdraget	_	NN	NN	_	2	SS	_	_
 2	uppgår	_	VV	VV	_	0	ROOT	_	_
@@ -609,13 +609,13 @@
 7	andra	_	PO	PO	_	8	DT	_	_
 8	maken	_	NN	NN	_	4	SS	_	_
 9	rätt	_	NN	NN	_	4	OO	_	_
-10	till	_	PR	PR	_	4	RA	_	_
+10	till	_	PR	PR	_	4	TA	_	_
 11	skattereduktion	_	VN	VN	_	10	PA	_	_
-12	(	_	IR	IR	_	13	SS	_	_
-13	se	_	VV	VV	_	0	ROOT	_	_
-14	nedan	_	AB	AB	_	13	TA	_	_
+12	(	_	IR	IR	_	4	SS	_	_
+13	se	_	VV	VV	_	4	VG	_	_
+14	nedan	_	AB	AB	_	13	PL	_	_
 15	)	_	IR	IR	_	13	OO	_	_
-16	.	_	IP	IP	_	13	IP	_	_
+16	.	_	IP	IP	_	4	IP	_	_
 
 1	Särskilda	_	AJ	AJ	_	2	AT	_	_
 2	regler	_	NN	NN	_	3	SS	_	_
@@ -624,12 +624,12 @@
 5	*	_	PU	PU	_	0		_	_
 6	skattskyldig	_	AJ	AJ	_	0		_	_
 7	som	_	PO	PO	_	8	SS	_	_
-8	varit	_	AV	AV	_	6	CC	_	_
+8	varit	_	AV	AV	_	6	ET	_	_
 9	bosatt	_	AJ	AJ	_	8	SP	_	_
 10	här	_	AB	AB	_	8	AA	_	_
 11	i	_	PR	PR	_	8	RA	_	_
 12	riket	_	NN	NN	_	11	PA	_	_
-13	under	_	PR	PR	_	8	RA	_	_
+13	under	_	PR	PR	_	6	ET	_	_
 14	en	_	EN	EN	_	16	DT	_	_
 15	mindre	_	AJ	AJ	_	16	AT	_	_
 16	del	_	NN	NN	_	13	PA	_	_
@@ -638,7 +638,7 @@
 19	*	_	PU	PU	_	0		_	_
 20	skattskyldig	_	AJ	AJ	_	0		_	_
 21	som	_	PO	PO	_	22	SS	_	_
-22	haft	_	HV	HV	_	20	CC	_	_
+22	haft	_	HV	HV	_	0		_	_
 23	inkomst	_	NN	NN	_	22	OO	_	_
 24	som	_	PO	PO	_	25	SS	_	_
 25	beskattas	_	VV	VV	_	23	ET	_	_
@@ -646,7 +646,7 @@
 27	förordningen	_	VN	VN	_	26	PA	_	_
 28	om	_	PR	PR	_	27	ET	_	_
 29	sjömansskatt	_	NN	NN	_	28	PA	_	_
-30	.	_	IP	IP	_	20	IP	_	_
+30	.	_	IP	IP	_	22	IP	_	_
 
 1	Gränsen	_	NN	NN	_	6	DT	_	_
 2	för	_	PR	PR	_	1	ET	_	_
@@ -656,7 +656,7 @@
 6	ungdom	_	NN	NN	_	8	SS	_	_
 7	m.fl	_	AB	AB	_	8	TA	_	_
 8	får	_	VV	VV	_	0	ROOT	_	_
-9	ha	_	HV	HV	_	8	OO	_	_
+9	ha	_	HV	HV	_	8	AA	_	_
 10	av	_	PR	PR	_	8	OA	_	_
 11	tillfällig	_	AJ	AJ	_	12	AT	_	_
 12	anställning	_	VN	VN	_	10	PA	_	_
@@ -683,9 +683,9 @@
 3	nya	_	AJ	AJ	_	4	AT	_	_
 4	skattesystemet	_	NN	NN	_	1	PA	_	_
 5	bibehålls	_	VV	VV	_	0	ROOT	_	_
-6	den	_	PO	PO	_	8	DT	_	_
+6	den	_	PO	PO	_	5	SS	_	_
 7	gamla	_	AJ	AJ	_	8	AT	_	_
-8	regeln	_	NN	NN	_	5	SS	_	_
+8	regeln	_	NN	NN	_	5	OO	_	_
 9	att	_	UK	UK	_	13	UK	_	_
 10	skattskyldig	_	AJ	AJ	_	13	SS	_	_
 11	som	_	PO	PO	_	13	SS	_	_
@@ -693,7 +693,7 @@
 13	har	_	HV	HV	_	5	OO	_	_
 14	folkpension	_	NN	NN	_	13	OO	_	_
 15	,	_	IK	IK	_	5	IK	_	_
-16	inte	_	AB	AB	_	17	NA	_	_
+16	inte	_	AB	AB	_	17	AA	_	_
 17	påförs	_	VV	VV	_	5	MS	_	_
 18	någon	_	PO	PO	_	19	DT	_	_
 19	skatt	_	NN	NN	_	17	OO	_	_
@@ -711,8 +711,8 @@
 10	oavsett	_	PR	PR	_	8	AA	_	_
 11	hur	_	AB	AB	_	12	AA	_	_
 12	hög	_	AJ	AJ	_	13	AT	_	_
-13	inkomst	_	NN	NN	_	10	PA	_	_
-14	folkpensionären	_	NN	NN	_	8	SP	_	_
+13	inkomst	_	NN	NN	_	14	DT	_	_
+14	folkpensionären	_	NN	NN	_	10	PA	_	_
 15	har	_	HV	HV	_	3	AA	_	_
 16	.	_	IP	IP	_	3	IP	_	_
 
@@ -723,7 +723,7 @@
 5	folkpensionär	_	NN	NN	_	2	SS	_	_
 6	att	_	IM	IM	_	7	IM	_	_
 7	kunna	_	QV	QV	_	2	VG	_	_
-8	ha	_	HV	HV	_	2	VG	_	_
+8	ha	_	HV	HV	_	2	SS	_	_
 9	en	_	EN	EN	_	10	DT	_	_
 10	inkomst	_	NN	NN	_	8	OO	_	_
 11	om	_	PR	PR	_	10	ET	_	_
@@ -735,17 +735,17 @@
 17	folkpensionen	_	NN	NN	_	0		_	_
 18	och	_	++	++	_	20	++	_	_
 19	ändock	_	AB	AB	_	20	AA	_	_
-20	bli	_	BV	BV	_	17	ET	_	_
+20	bli	_	BV	BV	_	17	CC	_	_
 21	skattefri	_	AJ	AJ	_	20	SP	_	_
 22	.	_	IP	IP	_	17	ET	_	_
 
 1	Gifta	_	AJ	AJ	_	2	AT	_	_
-2	pensionärer	_	NN	NN	_	0	ROOT	_	_
-3	blir	_	BV	BV	_	0		_	_
-4	skattefria	_	AJ	AJ	_	0		_	_
+2	pensionärer	_	NN	NN	_	3	SS	_	_
+3	blir	_	BV	BV	_	0	ROOT	_	_
+4	skattefria	_	AJ	AJ	_	3	SP	_	_
 5	om	_	UK	UK	_	7	UK	_	_
 6	sidoinkomsten	_	NN	NN	_	7	SS	_	_
-7	uppgår	_	VV	VV	_	0		_	_
+7	uppgår	_	VV	VV	_	3	OO	_	_
 8	till	_	PR	PR	_	7	OA	_	_
 9	högst	_	AB	AB	_	10	AA	_	_
 10	2000	_	RO	RO	_	11	DT	_	_
@@ -753,7 +753,7 @@
 12	för	_	PR	PR	_	11	ET	_	_
 13	makarna	_	NN	NN	_	12	PA	_	_
 14	tillsammans	_	AB	AB	_	7	TA	_	_
-15	.	_	IP	IP	_	7	IP	_	_
+15	.	_	IP	IP	_	3	IP	_	_
 
 1	Tekniskt	_	AJ	AJ	_	2	AA	_	_
 2	ordnas	_	VV	VV	_	0	ROOT	_	_
@@ -777,7 +777,7 @@
 9	nya	_	AJ	AJ	_	10	AT	_	_
 10	systemet	_	NN	NN	_	7	PA	_	_
 11	att	_	IM	IM	_	12	IM	_	_
-12	beräkna	_	VV	VV	_	10	ET	_	_
+12	beräkna	_	VV	VV	_	6	ET	_	_
 13	extra	_	AJ	AJ	_	14	AT	_	_
 14	avdrag	_	NN	NN	_	12	OO	_	_
 15	åberopade	_	VV	VV	_	0	ROOT	_	_
@@ -813,13 +813,13 @@
 16	.	_	IP	IP	_	4	IP	_	_
 
 1	Läs	_	VV	VV	_	0	ROOT	_	_
-2	den	_	PO	PO	_	1	SS	_	_
+2	den	_	PO	PO	_	0		_	_
 3	och	_	++	++	_	4	++	_	_
-4	behåll	_	VV	VV	_	1	CC	_	_
+4	behåll	_	VV	VV	_	2	CC	_	_
 5	den	_	PO	PO	_	4	OO	_	_
 6	under	_	PR	PR	_	4	OA	_	_
 7	utbildningsåret	_	NN	NN	_	6	PA	_	_
-8	.	_	IP	IP	_	1	IP	_	_
+8	.	_	IP	IP	_	2	IP	_	_
 
 1	Inryckning	_	VN	VN	_	0		_	_
 
@@ -875,10 +875,10 @@
 8	förmåner	_	NN	NN	_	4	OO	_	_
 9	och	_	++	++	_	11	++	_	_
 10	dessa	_	PO	PO	_	11	SS	_	_
-11	redovisas	_	VV	VV	_	4	MS	_	_
+11	redovisas	_	VV	VV	_	2	MS	_	_
 12	längre	_	AJ	AJ	_	11	AA	_	_
 13	fram	_	AB	AB	_	11	PL	_	_
-14	i	_	PR	PR	_	11	RA	_	_
+14	i	_	PR	PR	_	11	OA	_	_
 15	broschyren	_	NN	NN	_	14	PA	_	_
 16	.	_	IP	IP	_	2	IP	_	_
 
@@ -967,38 +967,38 @@
 2	ovillkorliga	_	AJ	AJ	_	5	AT	_	_
 3	och	_	++	++	_	4	++	_	_
 4	ögonblickliga	_	AJ	AJ	_	2	CC	_	_
-5	lydnad	_	NN	NN	_	0		_	_
-6	som	_	PO	PO	_	0		_	_
+5	lydnad	_	NN	NN	_	12	SS	_	_
+6	som	_	PO	PO	_	10	SS	_	_
 7	den	_	PO	PO	_	9	DT	_	_
 8	militära	_	AJ	AJ	_	9	AT	_	_
-9	verksamheten	_	AN	AN	_	10	SS	_	_
-10	kräver	_	VV	VV	_	6	ET	_	_
-11	,	_	IK	IK	_	10	IK	_	_
-12	har	_	HV	HV	_	10	OO	_	_
-13	också	_	AB	AB	_	0		_	_
+9	verksamheten	_	AN	AN	_	10	TA	_	_
+10	kräver	_	VV	VV	_	5	ET	_	_
+11	,	_	IK	IK	_	5	IK	_	_
+12	har	_	HV	HV	_	0	ROOT	_	_
+13	också	_	AB	AB	_	12	+A	_	_
 14	sin	_	PO	PO	_	15	DT	_	_
-15	motsvarighet	_	AN	AN	_	0		_	_
+15	motsvarighet	_	AN	AN	_	12	OO	_	_
 16	det	_	PO	PO	_	17	DT	_	_
-17	civila	_	AJ	AJ	_	0		_	_
-18	,	_	IK	IK	_	21	IK	_	_
+17	civila	_	AJ	AJ	_	12	OO	_	_
+18	,	_	IK	IK	_	12	IK	_	_
 19	t	_	AB	AB	_	21	CA	_	_
 20	ex	_	ID	ID	_	19	HD	_	_
-21	på	_	PR	PR	_	17	CC	_	_
+21	på	_	PR	PR	_	12	+F	_	_
 22	de	_	PO	PO	_	23	DT	_	_
 23	områden	_	NN	NN	_	21	PA	_	_
 24	där	_	AB	AB	_	26	RA	_	_
 25	liv	_	NN	NN	_	26	SS	_	_
-26	står	_	VV	VV	_	23	ET	_	_
+26	står	_	VV	VV	_	12	MS	_	_
 27	på	_	AB	AB	_	26	PL	_	_
 28	spel	_	ID	ID	_	27	HD	_	_
-29	.	_	IP	IP	_	17	IP	_	_
+29	.	_	IP	IP	_	12	IP	_	_
 
 1	Krav	_	NN	NN	_	4	SS	_	_
 2	på	_	PR	PR	_	1	ET	_	_
 3	disciplin	_	NN	NN	_	2	PA	_	_
 4	möter	_	VV	VV	_	0	ROOT	_	_
 5	du	_	PO	PO	_	4	OO	_	_
-6	på	_	PR	PR	_	4	RA	_	_
+6	på	_	PR	PR	_	4	OA	_	_
 7	de	_	PO	PO	_	10	DT	_	_
 8	flesta	_	PO	PO	_	10	DT	_	_
 9	andra	_	PO	PO	_	10	DT	_	_
@@ -1031,7 +1031,7 @@
 3	inte	_	AB	AB	_	2	NA	_	_
 4	du	_	PO	PO	_	2	SS	_	_
 5	skall	_	SV	SV	_	2	OO	_	_
-6	koppla	_	VV	VV	_	5	VG	_	_
+6	koppla	_	VV	VV	_	2	VG	_	_
 7	av	_	PR	PR	_	6	OA	_	_
 8	din	_	PO	PO	_	10	DT	_	_
 9	egen	_	PO	PO	_	10	DT	_	_
@@ -1041,18 +1041,18 @@
 1	Du	_	PO	PO	_	2	SS	_	_
 2	måste	_	MV	MV	_	0	ROOT	_	_
 3	både	_	AB	AB	_	2	MA	_	_
-4	kunna	_	QV	QV	_	2	VG	_	_
+4	kunna	_	QV	QV	_	5	SS	_	_
 5	handla	_	VV	VV	_	2	VG	_	_
-6	självständigt	_	AJ	AJ	_	0		_	_
+6	självständigt	_	AJ	AJ	_	5	AA	_	_
 7	och	_	++	++	_	8	++	_	_
-8	lyda	_	VV	VV	_	6	CC	_	_
+8	lyda	_	VV	VV	_	5	+F	_	_
 9	för	_	PR	PR	_	8	OA	_	_
 10	att	_	IM	IM	_	11	IM	_	_
 11	bli	_	BV	BV	_	9	PA	_	_
 12	en	_	EN	EN	_	14	DT	_	_
 13	bra	_	AJ	AJ	_	14	AT	_	_
 14	soldat	_	NN	NN	_	8	OO	_	_
-15	.	_	IP	IP	_	6	IP	_	_
+15	.	_	IP	IP	_	2	IP	_	_
 
 1	Under	_	PR	PR	_	3	TA	_	_
 2	fredsutbildningen	_	VN	VN	_	1	PA	_	_
@@ -1067,12 +1067,12 @@
 11	ammunition	_	NN	NN	_	9	PA	_	_
 12	.	_	IP	IP	_	3	IP	_	_
 
-1	I	_	PR	PR	_	3	TA	_	_
+1	I	_	PR	PR	_	3	RA	_	_
 2	krig	_	NN	NN	_	1	PA	_	_
 3	utförs	_	VV	VV	_	0	ROOT	_	_
 4	all	_	PO	PO	_	3	SS	_	_
 5	verksamhet	_	AN	AN	_	3	OO	_	_
-6	i	_	PR	PR	_	5	ET	_	_
+6	i	_	PR	PR	_	3	RA	_	_
 7	'	_	IC	IC	_	9	IC	_	_
 8	skarpladdad	_	AJ	AJ	_	9	AT	_	_
 9	miljö	_	NN	NN	_	6	PA	_	_
@@ -1090,17 +1090,17 @@
 9	utbildningen	_	VN	VN	_	2	SP	_	_
 10	närmast	_	AB	AB	_	11	AA	_	_
 11	syftar	_	VV	VV	_	2	MS	_	_
-12	-	_	IT	IT	_	11	OO	_	_
+12	-	_	IT	IT	_	2	MS	_	_
 13	därav	_	AB	AB	_	14	CA	_	_
-14	kravet	_	NN	NN	_	11	OO	_	_
-15	på	_	PR	PR	_	11	AA	_	_
+14	kravet	_	NN	NN	_	2	SP	_	_
+15	på	_	PR	PR	_	2	OA	_	_
 16	omedelbar	_	AJ	AJ	_	19	AT	_	_
 17	och	_	++	++	_	18	++	_	_
 18	ovillkorlig	_	AJ	AJ	_	16	CC	_	_
 19	lydnad	_	NN	NN	_	15	PA	_	_
 20	och	_	++	++	_	21	++	_	_
-21	på	_	PR	PR	_	11	+F	_	_
-22	noggrannhet	_	AN	AN	_	2	MS	_	_
+21	på	_	PR	PR	_	2	MS	_	_
+22	noggrannhet	_	AN	AN	_	2	AA	_	_
 23	redan	_	AB	AB	_	24	CA	_	_
 24	i	_	PR	PR	_	2	AA	_	_
 25	fredsutbildningen	_	VN	VN	_	24	PA	_	_
@@ -1122,7 +1122,7 @@
 14	dig	_	PO	PO	_	13	OO	_	_
 15	och	_	++	++	_	17	++	_	_
 16	även	_	AB	AB	_	17	AA	_	_
-17	kamraterna	_	NN	NN	_	13	OO	_	_
+17	kamraterna	_	NN	NN	_	14	CC	_	_
 18	livet	_	NN	NN	_	13	OO	_	_
 19	.	_	IP	IP	_	12	IP	_	_
 
@@ -1153,12 +1153,12 @@
 11	samhörighet	_	AN	AN	_	10	PA	_	_
 12	och	_	++	++	_	13	++	_	_
 13	glatt	_	AJ	AJ	_	11	CC	_	_
-14	kamratskap	_	NN	NN	_	3	SP	_	_
+14	kamratskap	_	NN	NN	_	2	VG	_	_
 15	.	_	IP	IP	_	2	IP	_	_
 
 1	Det	_	PO	PO	_	2	SS	_	_
 2	beror	_	VV	VV	_	0	ROOT	_	_
-3	mest	_	PO	PO	_	2	SS	_	_
+3	mest	_	PO	PO	_	2	OO	_	_
 4	på	_	PR	PR	_	2	OA	_	_
 5	dig	_	PO	PO	_	6	DT	_	_
 6	själv	_	PO	PO	_	4	PA	_	_
@@ -1181,10 +1181,10 @@
 
 1	Gott	_	AJ	AJ	_	2	AT	_	_
 2	humör	_	NN	NN	_	0	ROOT	_	_
-3	,	_	IK	IK	_	4	IK	_	_
-4	renhårighet	_	AN	AN	_	2	CC	_	_
+3	,	_	IK	IK	_	2	IK	_	_
+4	renhårighet	_	AN	AN	_	2	AN	_	_
 5	och	_	++	++	_	7	++	_	_
-6	hjälpsamhet	_	AN	AN	_	7	SS	_	_
+6	hjälpsamhet	_	AN	AN	_	7	TA	_	_
 7	skapar	_	VV	VV	_	2	ET	_	_
 8	gemensam	_	AJ	AJ	_	9	AT	_	_
 9	trevnad	_	NN	NN	_	7	OO	_	_
@@ -1209,17 +1209,17 @@
 8	och	_	++	++	_	9	++	_	_
 9	känner	_	VV	VV	_	5	CC	_	_
 10	dig	_	PO	PO	_	0		_	_
-11	säker	_	AJ	AJ	_	0		_	_
-12	på	_	PR	PR	_	0		_	_
+11	säker	_	AJ	AJ	_	12	AT	_	_
+12	på	_	PR	PR	_	10	ET	_	_
 13	dig	_	PO	PO	_	14	DT	_	_
 14	själv	_	PO	PO	_	12	PA	_	_
-15	.	_	IP	IP	_	12	IP	_	_
+15	.	_	IP	IP	_	10	IP	_	_
 
 1	Hjälp	_	VV	VV	_	0	ROOT	_	_
-2	då	_	AB	AB	_	1	AA	_	_
+2	då	_	AB	AB	_	1	PL	_	_
 3	dina	_	PO	PO	_	5	DT	_	_
 4	svagare	_	AJ	AJ	_	5	AT	_	_
-5	kamrater	_	NN	NN	_	1	SS	_	_
+5	kamrater	_	NN	NN	_	1	OO	_	_
 6	.	_	IP	IP	_	1	IP	_	_
 
 1	Märker	_	VV	VV	_	0	ROOT	_	_
@@ -1231,7 +1231,7 @@
 7	översitteri	_	NN	NN	_	6	PA	_	_
 8	förekommer	_	VV	VV	_	1	OO	_	_
 9	,	_	IK	IK	_	8	IK	_	_
-10	så	_	AB	AB	_	11	AA	_	_
+10	så	_	AB	AB	_	11	TA	_	_
 11	tala	_	VV	VV	_	8	+F	_	_
 12	med	_	PR	PR	_	11	OA	_	_
 13	befälet	_	NN	NN	_	12	PA	_	_
@@ -1256,18 +1256,18 @@
 6	förbjudet	_	TP	TP	_	2	SP	_	_
 7	och	_	++	++	_	9	++	_	_
 8	alltså	_	AB	AB	_	9	AA	_	_
-9	straffbart	_	AJ	AJ	_	2	SP	_	_
+9	straffbart	_	AJ	AJ	_	6	CC	_	_
 10	.	_	IP	IP	_	2	IP	_	_
 
 1	Ansvar	_	NN	NN	_	0		_	_
 
 1	Du	_	PO	PO	_	2	SS	_	_
 2	får	_	FV	FV	_	0	ROOT	_	_
-3	redan	_	AB	AB	_	6	CA	_	_
+3	redan	_	AB	AB	_	2	MA	_	_
 4	första	_	PO	PO	_	5	DT	_	_
 5	dagen	_	NN	NN	_	6	DT	_	_
 6	ansvar	_	NN	NN	_	2	OO	_	_
-7	för	_	PR	PR	_	2	AA	_	_
+7	för	_	PR	PR	_	2	OA	_	_
 8	en	_	EN	EN	_	9	DT	_	_
 9	mängd	_	NN	NN	_	10	DT	_	_
 10	utrustning	_	VN	VN	_	7	PA	_	_
@@ -1291,12 +1291,12 @@
 16	om	_	UK	UK	_	18	UK	_	_
 17	det	_	PO	PO	_	18	SS	_	_
 18	hanteras	_	VV	VV	_	11	ET	_	_
-19	fel	_	AB	AB	_	18	PL	_	_
+19	fel	_	AB	AB	_	18	AA	_	_
 20	.	_	IP	IP	_	11	IP	_	_
 
 1	Du	_	PO	PO	_	2	SS	_	_
 2	får	_	FV	FV	_	0	ROOT	_	_
-3	kanske	_	AB	AB	_	4	CA	_	_
+3	kanske	_	AB	AB	_	2	MA	_	_
 4	ansvaret	_	NN	NN	_	2	OO	_	_
 5	för	_	PR	PR	_	2	OA	_	_
 6	ett	_	EN	EN	_	7	DT	_	_
@@ -1323,7 +1323,7 @@
 12	,	_	IK	IK	_	10	IK	_	_
 13	om	_	UK	UK	_	15	UK	_	_
 14	man	_	PO	PO	_	15	SS	_	_
-15	gör	_	GV	GV	_	10	SP	_	_
+15	gör	_	GV	GV	_	10	AA	_	_
 16	fel	_	AB	AB	_	15	AA	_	_
 17	.	_	IP	IP	_	2	IP	_	_
 
@@ -1335,15 +1335,15 @@
 6	början	_	VN	VN	_	5	PA	_	_
 7	visa	_	VV	VV	_	2	VG	_	_
 8	dig	_	PO	PO	_	0		_	_
-9	mogen	_	AJ	AJ	_	11	AA	_	_
+9	mogen	_	AJ	AJ	_	0		_	_
 10	att	_	IM	IM	_	11	IM	_	_
-11	ta	_	VV	VV	_	8	ET	_	_
+11	ta	_	VV	VV	_	9	ET	_	_
 12	ansvar	_	NN	NN	_	11	OO	_	_
 13	för	_	PR	PR	_	11	OA	_	_
-14	vad	_	PO	PO	_	17	DT	_	_
+14	vad	_	PO	PO	_	0		_	_
 15	du	_	PO	PO	_	16	SS	_	_
 16	gör	_	GV	GV	_	14	ET	_	_
-17	.	_	IP	IP	_	8	ET	_	_
+17	.	_	IP	IP	_	14	HD	_	_
 
 1	Tystnadsplikt	_	NN	NN	_	0		_	_
 
@@ -1366,21 +1366,21 @@
 
 1	Kom	_	VV	VV	_	0	ROOT	_	_
 2	därför	_	AB	AB	_	1	AA	_	_
-3	redan	_	AB	AB	_	1	AA	_	_
-4	från	_	PR	PR	_	1	RA	_	_
+3	redan	_	AB	AB	_	4	AA	_	_
+4	från	_	PR	PR	_	1	TA	_	_
 5	början	_	NN	NN	_	4	PA	_	_
 6	ihåg	_	AB	AB	_	9	TA	_	_
 7	att	_	IM	IM	_	9	IM	_	_
 8	inte	_	AB	AB	_	9	NA	_	_
-9	lämna	_	VV	VV	_	1	MS	_	_
+9	lämna	_	VV	VV	_	1	OO	_	_
 10	informationer	_	VN	VN	_	9	OO	_	_
-11	till	_	PR	PR	_	10	ET	_	_
+11	till	_	PR	PR	_	9	OA	_	_
 12	obehöriga	_	AJ	AJ	_	11	PA	_	_
 13	.	_	IP	IP	_	1	IP	_	_
 
 1	En	_	EN	EN	_	2	DT	_	_
-2	säng	_	NN	NN	_	3	SS	_	_
-3	-	_	IT	IT	_	0	ROOT	_	_
+2	säng	_	NN	NN	_	0		_	_
+3	-	_	IT	IT	_	0		_	_
 4	ett	_	EN	EN	_	5	DT	_	_
 5	skåp	_	NN	NN	_	0		_	_
 
@@ -1414,16 +1414,16 @@
 3	ditt	_	PO	PO	_	4	DT	_	_
 4	skåp	_	NN	NN	_	2	PA	_	_
 5	är	_	AV	AV	_	0	ROOT	_	_
-6	mycket	_	AB	AB	_	7	AA	_	_
+6	mycket	_	AB	AB	_	5	MA	_	_
 7	begränsat	_	AJ	AJ	_	5	SP	_	_
 8	.	_	IP	IP	_	5	IP	_	_
 
 1	Därför	_	AB	AB	_	2	RA	_	_
 2	måste	_	MV	MV	_	0	ROOT	_	_
-3	du	_	PO	PO	_	4	SS	_	_
+3	du	_	PO	PO	_	2	SS	_	_
 4	hålla	_	VV	VV	_	2	VG	_	_
 5	noggrann	_	AJ	AJ	_	6	AT	_	_
-6	ordning	_	VN	VN	_	4	OO	_	_
+6	ordning	_	VN	VN	_	4	SS	_	_
 7	på	_	PR	PR	_	4	OA	_	_
 8	din	_	PO	PO	_	9	DT	_	_
 9	utrustning	_	VN	VN	_	7	PA	_	_
@@ -1433,41 +1433,41 @@
 13	i	_	PR	PR	_	11	RA	_	_
 14	skåpet	_	NN	NN	_	13	PA	_	_
 15	så	_	AB	AB	_	16	AA	_	_
-16	,	_	IK	IK	_	2	IK	_	_
+16	,	_	IK	IK	_	0		_	_
 17	att	_	UK	UK	_	19	UK	_	_
 18	sakerna	_	NN	NN	_	19	SS	_	_
-19	är	_	AV	AV	_	2	MS	_	_
+19	är	_	AV	AV	_	16	SS	_	_
 20	lätta	_	AJ	AJ	_	19	SP	_	_
 21	att	_	IM	IM	_	22	IM	_	_
-22	hitta	_	VV	VV	_	2	MS	_	_
+22	hitta	_	VV	VV	_	16	VG	_	_
 23	och	_	++	++	_	24	++	_	_
 24	lätta	_	AJ	AJ	_	22	CC	_	_
 25	att	_	IM	IM	_	26	IM	_	_
 26	komma	_	VV	VV	_	22	OO	_	_
 27	åt	_	PR	PR	_	26	AA	_	_
-28	.	_	IP	IP	_	2	IP	_	_
+28	.	_	IP	IP	_	16	IP	_	_
 
-1	Ibland	_	AB	AB	_	2	RA	_	_
+1	Ibland	_	AB	AB	_	2	AA	_	_
 2	måste	_	MV	MV	_	0	ROOT	_	_
 3	sakerna	_	NN	NN	_	2	SS	_	_
 4	-	_	IT	IT	_	2	VG	_	_
 5	t	_	AB	AB	_	7	CA	_	_
 6	ex	_	ID	ID	_	5	HD	_	_
-7	av	_	PR	PR	_	9	AA	_	_
+7	av	_	PR	PR	_	2	+F	_	_
 8	säkerhetsskäl	_	NN	NN	_	7	PA	_	_
-9	-	_	IT	IT	_	0	ROOT	_	_
-10	ha	_	HV	HV	_	9	VG	_	_
+9	-	_	IT	IT	_	2	SS	_	_
+10	ha	_	HV	HV	_	2	VG	_	_
 11	sina	_	PO	PO	_	13	DT	_	_
 12	bestämda	_	TP	TP	_	13	AT	_	_
 13	platser	_	NN	NN	_	10	OO	_	_
-14	,	_	IK	IK	_	9	IK	_	_
-15	lika	_	PO	PO	_	21	SS	_	_
+14	,	_	IK	IK	_	2	IK	_	_
+15	lika	_	PO	PO	_	21	DT	_	_
 16	för	_	PR	PR	_	21	AA	_	_
 17	alla	_	PO	PO	_	18	DT	_	_
 18	inom	_	PR	PR	_	16	PA	_	_
 19	ditt	_	PO	PO	_	20	DT	_	_
 20	förband	_	NN	NN	_	18	PA	_	_
-21	.	_	IP	IP	_	9	IP	_	_
+21	.	_	IP	IP	_	0		_	_
 
 1	Du	_	PO	PO	_	2	SS	_	_
 2	kan	_	QV	QV	_	0	ROOT	_	_
@@ -1495,19 +1495,19 @@
 5	köpas	_	VV	VV	_	3	VG	_	_
 6	i	_	PR	PR	_	5	RA	_	_
 7	marketenteriet	_	NN	NN	_	6	PA	_	_
-8	)	_	IR	IR	_	17	SS	_	_
-9	-	_	IT	IT	_	17	SS	_	_
-10	rakhyvel	_	NN	NN	_	13	SS	_	_
+8	)	_	IR	IR	_	3	TA	_	_
+9	-	_	IT	IT	_	3	VG	_	_
+10	rakhyvel	_	NN	NN	_	3	OO	_	_
 11	och	_	++	++	_	12	++	_	_
 12	rakborste	_	NN	NN	_	10	CC	_	_
-13	-	_	IT	IT	_	9	ET	_	_
+13	-	_	IT	IT	_	3	TA	_	_
 14	även	_	UK	UK	_	17	UK	_	_
 15	om	_	ID	ID	_	14	HD	_	_
 16	du	_	PO	PO	_	17	SS	_	_
-17	har	_	HV	HV	_	0	ROOT	_	_
+17	har	_	HV	HV	_	3	OO	_	_
 18	elektrisk	_	AJ	AJ	_	19	AT	_	_
 19	rakapparat	_	NN	NN	_	17	OO	_	_
-20	.	_	IP	IP	_	17	IP	_	_
+20	.	_	IP	IP	_	3	IP	_	_
 
 1	Du	_	PO	PO	_	2	SS	_	_
 2	behöver	_	VV	VV	_	0	ROOT	_	_
@@ -1547,17 +1547,17 @@
 1	Träningsoverall	_	NN	NN	_	0		_	_
 
 1	Idrottsmateriel	_	NN	NN	_	0		_	_
-2	,	_	IK	IK	_	5	IK	_	_
+2	,	_	IK	IK	_	1	IK	_	_
 3	t	_	AB	AB	_	5	CA	_	_
 4	ex	_	ID	ID	_	3	HD	_	_
-5	spikskor	_	NN	NN	_	1	CC	_	_
+5	spikskor	_	NN	NN	_	1	AN	_	_
 6	,	_	IK	IK	_	7	IK	_	_
 7	kompass	_	NN	NN	_	5	CC	_	_
 8	,	_	IK	IK	_	9	IK	_	_
 9	kartfodral	_	NN	NN	_	7	CC	_	_
 
 1	Musikinstrument	_	NN	NN	_	0		_	_
-2	,	_	IK	IK	_	3	IK	_	_
+2	,	_	IK	IK	_	1	IK	_	_
 3	för	_	PR	PR	_	1	ET	_	_
 4	egen	_	PO	PO	_	0		_	_
 5	och	_	++	++	_	7	++	_	_
@@ -1586,7 +1586,7 @@
 2	kommer	_	VV	VV	_	0	ROOT	_	_
 3	dig	_	PO	PO	_	13	DT	_	_
 4	själv	_	PO	PO	_	13	DT	_	_
-5	till	_	AB	AB	_	7	CA	_	_
+5	till	_	AB	AB	_	7	AA	_	_
 6	godo	_	ID	ID	_	5	HD	_	_
 7	i	_	PR	PR	_	13	AA	_	_
 8	form	_	NN	NN	_	7	PA	_	_
@@ -1600,12 +1600,12 @@
 2	militär	_	AJ	AJ	_	3	AT	_	_
 3	arbetsdag	_	NN	NN	_	0		_	_
 
-1	I	_	AB	AB	_	3	AA	_	_
+1	I	_	AB	AB	_	3	TA	_	_
 2	regel	_	ID	ID	_	1	HD	_	_
 3	väcks	_	VV	VV	_	0	ROOT	_	_
-4	du	_	PO	PO	_	3	SS	_	_
-5	kl	_	NN	NN	_	3	OO	_	_
-6	6	_	RO	RO	_	3	TA	_	_
+4	du	_	PO	PO	_	5	DT	_	_
+5	kl	_	NN	NN	_	3	SS	_	_
+6	6	_	RO	RO	_	3	SS	_	_
 7	på	_	PR	PR	_	3	OA	_	_
 8	morgonen	_	NN	NN	_	7	PA	_	_
 9	.	_	IP	IP	_	3	IP	_	_
@@ -1618,9 +1618,9 @@
 6	sker	_	VV	VV	_	0	ROOT	_	_
 7	i	_	AB	AB	_	6	TA	_	_
 8	allmänhet	_	ID	ID	_	7	HD	_	_
-9	kl	_	NN	NN	_	6	OO	_	_
-10	0730	_	RO	RO	_	6	TA	_	_
-11	.	_	IP	IP	_	6	IP	_	_
+9	kl	_	NN	NN	_	0		_	_
+10	0730	_	RO	RO	_	9	ET	_	_
+11	.	_	IP	IP	_	9	IP	_	_
 
 1	Dessförinnan	_	AB	AB	_	2	AA	_	_
 2	skall	_	SV	SV	_	0	ROOT	_	_
@@ -1652,14 +1652,14 @@
 28	att	_	ID	ID	_	27	HD	_	_
 29	allt	_	PO	PO	_	30	SS	_	_
 30	är	_	AV	AV	_	26	OO	_	_
-31	'	_	IC	IC	_	30	SP	_	_
+31	'	_	IC	IC	_	32	IC	_	_
 32	tiptop	_	AJ	AJ	_	30	SP	_	_
 33	'	_	IC	IC	_	30	JC	_	_
-34	vid	_	PR	PR	_	30	AA	_	_
+34	vid	_	PR	PR	_	30	SP	_	_
 35	uppställningen	_	VN	VN	_	34	PA	_	_
 36	.	_	IP	IP	_	26	IP	_	_
 
-1	På	_	PR	PR	_	3	AA	_	_
+1	På	_	PR	PR	_	3	TA	_	_
 2	förmiddagen	_	NN	NN	_	1	PA	_	_
 3	tränas	_	VV	VV	_	0	ROOT	_	_
 4	du	_	PO	PO	_	3	SS	_	_
@@ -1669,10 +1669,10 @@
 8	,	_	IK	IK	_	3	IK	_	_
 9	i	_	AB	AB	_	11	CA	_	_
 10	regel	_	ID	ID	_	9	HD	_	_
-11	till	_	PR	PR	_	3	AA	_	_
-12	omkring	_	AB	AB	_	15	TA	_	_
-13	kl	_	NN	NN	_	15	SS	_	_
-14	11	_	RO	RO	_	13	ET	_	_
+11	till	_	PR	PR	_	3	MS	_	_
+12	omkring	_	AB	AB	_	14	CA	_	_
+13	kl	_	NN	NN	_	14	DT	_	_
+14	11	_	RO	RO	_	11	PA	_	_
 15	.	_	IP	IP	_	3	IP	_	_
 
 1	Då	_	AB	AB	_	2	AA	_	_
@@ -1707,9 +1707,9 @@
 8	tvättat	_	VV	VV	_	3	+F	_	_
 9	dig	_	PO	PO	_	10	SS	_	_
 10	är	_	AV	AV	_	8	OO	_	_
-11	det	_	PO	PO	_	13	DT	_	_
-12	dags	_	AB	AB	_	13	AA	_	_
-13	för	_	PR	PR	_	10	SP	_	_
+11	det	_	PO	PO	_	12	DT	_	_
+12	dags	_	AB	AB	_	10	SP	_	_
+13	för	_	PR	PR	_	10	AA	_	_
 14	middag	_	NN	NN	_	13	PA	_	_
 15	.	_	IP	IP	_	3	IP	_	_
 
@@ -1726,27 +1726,27 @@
 11	du	_	PO	PO	_	10	SS	_	_
 12	göra	_	VV	VV	_	10	VG	_	_
 13	det	_	PO	PO	_	12	OO	_	_
-14	efteråt	_	AB	AB	_	12	PL	_	_
+14	efteråt	_	AB	AB	_	12	AA	_	_
 15	.	_	IP	IP	_	1	IP	_	_
 
 1	Varje	_	PO	PO	_	2	SS	_	_
 2	vecka	_	VV	VV	_	0	ROOT	_	_
 3	ordnas	_	VV	VV	_	2	OO	_	_
-4	en	_	EN	EN	_	8	DT	_	_
+4	en	_	EN	EN	_	0		_	_
 5	och	_	++	++	_	8	++	_	_
-6	ibland	_	AB	AB	_	8	VA	_	_
+6	ibland	_	AB	AB	_	8	CA	_	_
 7	två	_	RO	RO	_	8	DT	_	_
-8	kvällsövningar	_	VN	VN	_	3	OO	_	_
-9	,	_	IK	IK	_	8	IK	_	_
-10	då	_	AB	AB	_	12	AA	_	_
+8	kvällsövningar	_	VN	VN	_	4	CC	_	_
+9	,	_	IK	IK	_	0		_	_
+10	då	_	AB	AB	_	12	TA	_	_
 11	du	_	PO	PO	_	12	SS	_	_
-12	skall	_	SV	SV	_	3	OO	_	_
+12	skall	_	SV	SV	_	0		_	_
 13	lära	_	VV	VV	_	12	VG	_	_
 14	dig	_	PO	PO	_	13	OO	_	_
-15	uppträda	_	VV	VV	_	13	OO	_	_
-16	i	_	PR	PR	_	15	RA	_	_
+15	uppträda	_	VV	VV	_	12	VG	_	_
+16	i	_	PR	PR	_	15	OA	_	_
 17	mörker	_	NN	NN	_	16	PA	_	_
-18	.	_	IP	IP	_	2	IP	_	_
+18	.	_	IP	IP	_	12	IP	_	_
 
 1	Utbildningstiden	_	NN	NN	_	0		_	_
 
@@ -1772,7 +1772,7 @@
 11	,	_	IK	IK	_	10	IK	_	_
 12	som	_	PO	PO	_	13	SS	_	_
 13	tar	_	VV	VV	_	10	ET	_	_
-14	olika	_	AB	AB	_	13	TA	_	_
+14	olika	_	AB	AB	_	13	AA	_	_
 15	lång	_	AJ	AJ	_	16	AT	_	_
 16	tid	_	NN	NN	_	13	OO	_	_
 17	att	_	IM	IM	_	18	IM	_	_
@@ -1817,27 +1817,27 @@
 1	För	_	UK	UK	_	4	UK	_	_
 2	att	_	ID	ID	_	1	HD	_	_
 3	de	_	PO	PO	_	4	SS	_	_
-4	skall	_	SV	SV	_	18	AA	_	_
+4	skall	_	SV	SV	_	10	AA	_	_
 5	klara	_	VV	VV	_	4	VG	_	_
 6	sina	_	PO	PO	_	7	DT	_	_
 7	uppgifter	_	NN	NN	_	5	OO	_	_
 8	och	_	++	++	_	9	++	_	_
 9	kunna	_	QV	QV	_	4	+F	_	_
-10	bära	_	VV	VV	_	9	VG	_	_
-11	det	_	PO	PO	_	12	DT	_	_
+10	bära	_	VV	VV	_	0	ROOT	_	_
+11	det	_	PO	PO	_	10	SS	_	_
 12	ansvar	_	NN	NN	_	10	OO	_	_
 13	de	_	PO	PO	_	14	SS	_	_
 14	har	_	HV	HV	_	10	OO	_	_
 15	för	_	PR	PR	_	14	AA	_	_
 16	sina	_	PO	PO	_	17	DT	_	_
 17	soldater	_	NN	NN	_	15	PA	_	_
-18	måste	_	MV	MV	_	0	ROOT	_	_
-19	de	_	PO	PO	_	18	SS	_	_
-20	få	_	FV	FV	_	18	VG	_	_
-21	tillräckligt	_	AB	AB	_	23	CA	_	_
+18	måste	_	MV	MV	_	10	TA	_	_
+19	de	_	PO	PO	_	20	DT	_	_
+20	få	_	FV	FV	_	10	SS	_	_
+21	tillräckligt	_	AB	AB	_	23	DT	_	_
 22	lång	_	AJ	AJ	_	23	AT	_	_
 23	utbildning	_	VN	VN	_	20	OO	_	_
-24	.	_	IP	IP	_	18	IP	_	_
+24	.	_	IP	IP	_	10	IP	_	_
 
 1	De	_	PO	PO	_	7	SS	_	_
 2	som	_	PO	PO	_	3	SS	_	_
@@ -1921,7 +1921,7 @@
 1	Även	_	AB	AB	_	2	AA	_	_
 2	för	_	PR	PR	_	0	ROOT	_	_
 3	meniga	_	AJ	AJ	_	4	AA	_	_
-4	är	_	AV	AV	_	0	ROOT	_	_
+4	är	_	AV	AV	_	0		_	_
 5	utbildningstiden	_	NN	NN	_	4	SS	_	_
 6	olika	_	AB	AB	_	7	AA	_	_
 7	lång	_	AJ	AJ	_	4	SP	_	_
@@ -1943,20 +1943,20 @@
 14	.	_	IP	IP	_	4	ET	_	_
 
 1	En	_	EN	EN	_	2	DT	_	_
-2	del	_	NN	NN	_	11	SS	_	_
+2	del	_	NN	NN	_	9	SS	_	_
 3	av	_	PR	PR	_	2	ET	_	_
 4	dessa	_	PO	PO	_	6	DT	_	_
-5	värnpliktiga	_	AJ	AJ	_	6	AA	_	_
+5	värnpliktiga	_	AJ	AJ	_	6	AT	_	_
 6	skall	_	SV	SV	_	3	PA	_	_
 7	t	_	AB	AB	_	9	TA	_	_
 8	ex	_	ID	ID	_	7	HD	_	_
-9	handha	_	VV	VV	_	6	VG	_	_
+9	handha	_	VV	VV	_	0	ROOT	_	_
 10	särskilt	_	AB	AB	_	9	AA	_	_
-11	komplicerad	_	TP	TP	_	0	ROOT	_	_
+11	komplicerad	_	TP	TP	_	9	AA	_	_
 12	och	_	++	++	_	13	++	_	_
 13	dyrbar	_	AJ	AJ	_	11	CC	_	_
-14	materiel	_	NN	NN	_	11	OO	_	_
-15	.	_	IP	IP	_	11	IP	_	_
+14	materiel	_	NN	NN	_	9	OO	_	_
+15	.	_	IP	IP	_	9	IP	_	_
 
 1	De	_	PO	PO	_	2	SS	_	_
 2	har	_	HV	HV	_	0	ROOT	_	_
@@ -1965,9 +1965,9 @@
 5	lång	_	AJ	AJ	_	6	AT	_	_
 6	grundutbildning	_	VN	VN	_	2	OO	_	_
 7	som	_	UK	UK	_	8	UK	_	_
-8	värnpliktiga	_	AJ	AJ	_	2	AA	_	_
+8	värnpliktiga	_	AJ	AJ	_	6	ET	_	_
 9	uttagna	_	TP	TP	_	2	VG	_	_
-10	till	_	PR	PR	_	2	AA	_	_
+10	till	_	PR	PR	_	2	TA	_	_
 11	underbefälsutbildning	_	VN	VN	_	10	PA	_	_
 12	.	_	IP	IP	_	2	IP	_	_
 
@@ -1985,14 +1985,14 @@
 12	grundutbildning	_	VN	VN	_	0	ROOT	_	_
 13	.	_	IP	IP	_	12	IP	_	_
 
-1	F-värnpliktiga	_	AJ	AJ	_	2	AA	_	_
+1	F-värnpliktiga	_	AJ	AJ	_	2	SS	_	_
 2	skall	_	SV	SV	_	0	ROOT	_	_
 3	bl	_	AB	AB	_	2	MA	_	_
 4	a	_	ID	ID	_	3	HD	_	_
 5	lära	_	VV	VV	_	2	VG	_	_
 6	sig	_	PO	PO	_	5	OO	_	_
-7	strida	_	VV	VV	_	5	OO	_	_
-8	i	_	PR	PR	_	7	RA	_	_
+7	strida	_	VV	VV	_	2	VG	_	_
+8	i	_	PR	PR	_	7	OA	_	_
 9	förband	_	NN	NN	_	8	PA	_	_
 10	.	_	IP	IP	_	2	IP	_	_
 
@@ -2007,7 +2007,7 @@
 9	grundutbildningen	_	VN	VN	_	6	OO	_	_
 10	-	_	IT	IT	_	12	DT	_	_
 11	255	_	RO	RO	_	12	DT	_	_
-12	dagar	_	NN	NN	_	5	OO	_	_
+12	dagar	_	NN	NN	_	5	+F	_	_
 13	.	_	IP	IP	_	5	IP	_	_
 
 1	De	_	PO	PO	_	2	SS	_	_
@@ -2027,8 +2027,8 @@
 5	till	_	PR	PR	_	3	OA	_	_
 6	längre	_	AJ	AJ	_	7	AT	_	_
 7	tjänstgöring	_	VN	VN	_	5	PA	_	_
-8	än	_	UK	UK	_	38	UK	_	_
-9	många	_	PO	PO	_	38	SS	_	_
+8	än	_	UK	UK	_	0		_	_
+9	många	_	PO	PO	_	0		_	_
 10	andra	_	PO	PO	_	11	SS	_	_
 11	beror	_	VV	VV	_	9	ET	_	_
 12	det	_	PO	PO	_	11	OO	_	_
@@ -2038,10 +2038,10 @@
 16	vid	_	PR	PR	_	18	TA	_	_
 17	uttagningen	_	VN	VN	_	16	PA	_	_
 18	funnit	_	VV	VV	_	13	PA	_	_
-19	att	_	UK	UK	_	22	UK	_	_
+19	att	_	UK	UK	_	0		_	_
 20	just	_	AB	AB	_	22	RA	_	_
 21	du	_	PO	PO	_	22	SS	_	_
-22	har	_	HV	HV	_	18	OO	_	_
+22	har	_	HV	HV	_	0		_	_
 23	förutsättningar	_	VN	VN	_	22	OO	_	_
 24	att	_	IM	IM	_	25	IM	_	_
 25	klara	_	VV	VV	_	23	ET	_	_
@@ -2057,7 +2057,7 @@
 35	befäl	_	NN	NN	_	34	PA	_	_
 36	och	_	++	++	_	37	++	_	_
 37	E-värnpliktiga	_	AJ	AJ	_	35	CC	_	_
-38	.	_	IP	IP	_	3	IP	_	_
+38	.	_	IP	IP	_	22	IP	_	_
 
 1	Visa	_	VV	VV	_	0	ROOT	_	_
 2	att	_	UK	UK	_	4	UK	_	_
@@ -2083,31 +2083,31 @@
 10	när	_	AB	AB	_	13	TA	_	_
 11	du	_	PO	PO	_	13	SS	_	_
 12	sedan	_	AB	AB	_	13	TA	_	_
-13	söker	_	VV	VV	_	9	PA	_	_
+13	söker	_	VV	VV	_	0		_	_
 14	civilt	_	AJ	AJ	_	15	AT	_	_
 15	arbete	_	NN	NN	_	13	OO	_	_
-16	.	_	IP	IP	_	4	IP	_	_
+16	.	_	IP	IP	_	13	IP	_	_
 
-1	Värnpliktiga	_	AJ	AJ	_	20	SS	_	_
+1	Värnpliktiga	_	AJ	AJ	_	31	SS	_	_
 2	,	_	IK	IK	_	1	IK	_	_
-3	som	_	PO	PO	_	13	SS	_	_
-4	vid	_	PR	PR	_	13	AA	_	_
+3	som	_	PO	PO	_	20	SS	_	_
+4	vid	_	PR	PR	_	20	AA	_	_
 5	inskrivningen	_	VN	VN	_	4	PA	_	_
 6	ej	_	AB	AB	_	7	AA	_	_
 7	blivit	_	BV	BV	_	4	CC	_	_
 8	uttagna	_	TP	TP	_	7	SP	_	_
-9	till	_	PR	PR	_	7	OA	_	_
+9	till	_	PR	PR	_	4	ET	_	_
 10	underofficersutbildning	_	VN	VN	_	9	PA	_	_
 11	men	_	++	++	_	13	++	_	_
 12	som	_	PO	PO	_	13	SS	_	_
-13	önskar	_	VV	VV	_	1	MS	_	_
+13	önskar	_	VV	VV	_	4	CC	_	_
 14	utbildning	_	VN	VN	_	13	OO	_	_
 15	till	_	PR	PR	_	14	ET	_	_
 16	yrkesofficer	_	NN	NN	_	15	PA	_	_
 17	eller	_	++	++	_	18	++	_	_
 18	reservofficer	_	NN	NN	_	16	CC	_	_
 19	,	_	IK	IK	_	20	IK	_	_
-20	skall	_	SV	SV	_	0	ROOT	_	_
+20	skall	_	SV	SV	_	1	MS	_	_
 21	anmäla	_	VV	VV	_	20	VG	_	_
 22	detta	_	PO	PO	_	21	OO	_	_
 23	i	_	PR	PR	_	21	AA	_	_
@@ -2118,12 +2118,12 @@
 28	för	_	PR	PR	_	27	ET	_	_
 29	att	_	IM	IM	_	30	IM	_	_
 30	kunna	_	QV	QV	_	28	PA	_	_
-31	prövas	_	VV	VV	_	20	VG	_	_
-32	in	_	AB	AB	_	31	PL	_	_
+31	prövas	_	VV	VV	_	0	ROOT	_	_
+32	in	_	AB	AB	_	31	MA	_	_
 33	i	_	PR	PR	_	31	OA	_	_
 34	rätt	_	PO	PO	_	35	DT	_	_
 35	kategori	_	NN	NN	_	33	PA	_	_
-36	.	_	IP	IP	_	20	IP	_	_
+36	.	_	IP	IP	_	31	IP	_	_
 
 1	Värnpliktiga	_	AJ	AJ	_	0		_	_
 2	som	_	PO	PO	_	3	SS	_	_
@@ -2157,12 +2157,12 @@
 11	'	_	IC	IC	_	10	JC	_	_
 12	.	_	IP	IP	_	3	IP	_	_
 
-1	Från	_	PR	PR	_	3	AA	_	_
+1	Från	_	PR	PR	_	3	TA	_	_
 2	årsskiftet	_	NN	NN	_	1	PA	_	_
 3	gäller	_	VV	VV	_	0	ROOT	_	_
 4	flera	_	PO	PO	_	5	DT	_	_
 5	nyheter	_	NN	NN	_	3	SS	_	_
-6	inom	_	PR	PR	_	3	AA	_	_
+6	inom	_	PR	PR	_	3	OA	_	_
 7	den	_	PO	PO	_	9	DT	_	_
 8	allmänna	_	AJ	AJ	_	9	AT	_	_
 9	sjukförsäkringen	_	VN	VN	_	6	PA	_	_
@@ -2178,7 +2178,7 @@
 9	på	_	PR	PR	_	8	ET	_	_
 10	sjukhusmottagning	_	VN	VN	_	9	PA	_	_
 11	och	_	++	++	_	12	++	_	_
-12	hos	_	PR	PR	_	9	CC	_	_
+12	hos	_	PR	PR	_	10	CC	_	_
 13	provinsialläkare	_	NN	NN	_	12	PA	_	_
 14	.	_	IP	IP	_	2	IP	_	_
 
@@ -2210,7 +2210,7 @@
 1	Det	_	PO	PO	_	2	SS	_	_
 2	är	_	AV	AV	_	0	ROOT	_	_
 3	viktigt	_	AJ	AJ	_	2	SP	_	_
-4	för	_	PR	PR	_	2	AA	_	_
+4	för	_	PR	PR	_	2	OA	_	_
 5	dig	_	PO	PO	_	0		_	_
 6	att	_	IM	IM	_	7	IM	_	_
 7	känna	_	VV	VV	_	5	ET	_	_
@@ -2227,7 +2227,7 @@
 5	närmare	_	AB	AB	_	2	AA	_	_
 6	om	_	PR	PR	_	2	OA	_	_
 7	dem	_	PO	PO	_	6	PA	_	_
-8	i	_	PR	PR	_	2	AA	_	_
+8	i	_	PR	PR	_	7	ET	_	_
 9	den	_	PO	PO	_	11	DT	_	_
 10	här	_	ID	ID	_	9	HD	_	_
 11	broschyren	_	NN	NN	_	8	PA	_	_
@@ -2264,10 +2264,10 @@
 2	gäller	_	VV	VV	_	0	ROOT	_	_
 3	när	_	AB	AB	_	2	MA	_	_
 4	du	_	PO	PO	_	5	SS	_	_
-5	blir	_	BV	BV	_	2	MS	_	_
+5	blir	_	BV	BV	_	2	OO	_	_
 6	sjuk	_	AJ	AJ	_	5	SP	_	_
 7	och	_	++	++	_	8	++	_	_
-8	söker	_	VV	VV	_	2	+F	_	_
+8	söker	_	VV	VV	_	5	+F	_	_
 9	läkare	_	NN	NN	_	8	OO	_	_
 10	inom	_	PR	PR	_	8	OA	_	_
 11	den	_	PO	PO	_	14	DT	_	_
@@ -2282,7 +2282,7 @@
 20	jourläkare	_	NN	NN	_	18	CC	_	_
 21	samt	_	++	++	_	22	++	_	_
 22	stadsdistriktsläkare	_	NN	NN	_	20	CC	_	_
-23	under	_	PR	PR	_	22	ET	_	_
+23	under	_	PR	PR	_	2	OA	_	_
 24	viss	_	PO	PO	_	25	DT	_	_
 25	del	_	NN	NN	_	23	PA	_	_
 26	av	_	PR	PR	_	25	ET	_	_
@@ -2320,7 +2320,7 @@
 25	kronor	_	NN	NN	_	22	PA	_	_
 26	när	_	AB	AB	_	28	TA	_	_
 27	du	_	PO	PO	_	28	SS	_	_
-28	rådfrågar	_	VV	VV	_	20	MS	_	_
+28	rådfrågar	_	VV	VV	_	4	MS	_	_
 29	doktorn	_	NN	NN	_	28	OO	_	_
 30	per	_	PR	PR	_	28	OA	_	_
 31	telefon	_	NN	NN	_	30	PA	_	_
@@ -2336,12 +2336,12 @@
 8	direkt	_	AB	AB	_	4	TA	_	_
 9	till	_	PR	PR	_	4	OA	_	_
 10	sjukvårdshuvudmannen	_	NN	NN	_	9	PA	_	_
-11	(	_	IR	IR	_	4	OO	_	_
+11	(	_	IR	IR	_	4	SS	_	_
 12	i	_	PR	PR	_	4	AA	_	_
 13	allmänhet	_	AN	AN	_	14	DT	_	_
 14	landstinget	_	NN	NN	_	12	PA	_	_
-15	)	_	IR	IR	_	0		_	_
-16	.	_	IP	IP	_	15	IP	_	_
+15	)	_	IR	IR	_	4	SS	_	_
+16	.	_	IP	IP	_	4	IP	_	_
 
 1	För	_	PR	PR	_	3	AA	_	_
 2	telefonrådfrågning	_	VN	VN	_	1	PA	_	_
@@ -2382,10 +2382,10 @@
 4	gör	_	GV	GV	_	0	ROOT	_	_
 5	att	_	UK	UK	_	10	UK	_	_
 6	du	_	PO	PO	_	10	SS	_	_
-7	redan	_	AB	AB	_	10	TA	_	_
+7	redan	_	AB	AB	_	8	AA	_	_
 8	i	_	AB	AB	_	10	AA	_	_
 9	förväg	_	ID	ID	_	8	HD	_	_
-10	vet	_	VV	VV	_	4	VG	_	_
+10	vet	_	VV	VV	_	4	OO	_	_
 11	vad	_	PO	PO	_	0		_	_
 12	det	_	PO	PO	_	13	SS	_	_
 13	kostar	_	VV	VV	_	11	ET	_	_
@@ -2442,8 +2442,8 @@
 11	radiumbehandlingar	_	VN	VN	_	9	CC	_	_
 12	får	_	FV	FV	_	0	ROOT	_	_
 13	du	_	PO	PO	_	12	SS	_	_
-14	också	_	AB	AB	_	19	TA	_	_
-15	dessa	_	PO	PO	_	19	SS	_	_
+14	också	_	AB	AB	_	19	CA	_	_
+15	dessa	_	PO	PO	_	19	DT	_	_
 16	utan	_	PR	PR	_	19	AA	_	_
 17	särskild	_	AJ	AJ	_	18	AT	_	_
 18	kostnad	_	NN	NN	_	16	PA	_	_
@@ -2451,22 +2451,22 @@
 
 1	Ett	_	EN	EN	_	3	DT	_	_
 2	annat	_	PO	PO	_	3	DT	_	_
-3	exempel	_	NN	NN	_	4	SS	_	_
-4	:	_	IQ	IQ	_	0	ROOT	_	_
+3	exempel	_	NN	NN	_	18	SS	_	_
+4	:	_	IQ	IQ	_	3	ET	_	_
 5	om	_	UK	UK	_	7	UK	_	_
 6	du	_	PO	PO	_	7	SS	_	_
-7	får	_	FV	FV	_	0		_	_
+7	får	_	FV	FV	_	18	AA	_	_
 8	remiss	_	NN	NN	_	7	OO	_	_
 9	från	_	PR	PR	_	8	ET	_	_
 10	en	_	EN	EN	_	11	DT	_	_
 11	provinsialläkare	_	NN	NN	_	9	PA	_	_
-12	till	_	PR	PR	_	8	ET	_	_
+12	till	_	PR	PR	_	7	RA	_	_
 13	en	_	EN	EN	_	14	DT	_	_
 14	specialist	_	NN	NN	_	12	PA	_	_
-15	på	_	PR	PR	_	7	OA	_	_
+15	på	_	PR	PR	_	7	RA	_	_
 16	en	_	EN	EN	_	17	DT	_	_
 17	sjukhusklinik	_	NN	NN	_	15	PA	_	_
-18	behöver	_	VV	VV	_	7	VG	_	_
+18	behöver	_	VV	VV	_	0	ROOT	_	_
 19	du	_	PO	PO	_	18	OO	_	_
 20	inte	_	AB	AB	_	18	NA	_	_
 21	betala	_	VV	VV	_	18	VG	_	_
@@ -2478,7 +2478,7 @@
 27	besöket	_	NN	NN	_	24	PA	_	_
 28	hos	_	PR	PR	_	27	ET	_	_
 29	specialisten	_	NN	NN	_	28	PA	_	_
-30	.	_	IP	IP	_	7	IP	_	_
+30	.	_	IP	IP	_	18	IP	_	_
 
 1	Återbesök	_	NN	NN	_	4	SS	_	_
 2	hos	_	PR	PR	_	1	ET	_	_
@@ -2497,7 +2497,7 @@
 1	Om	_	UK	UK	_	3	UK	_	_
 2	du	_	PO	PO	_	3	SS	_	_
 3	har	_	HV	HV	_	0		_	_
-4	kostnader	_	NN	NN	_	3	OO	_	_
+4	kostnader	_	NN	NN	_	3	SS	_	_
 5	för	_	PR	PR	_	3	TA	_	_
 6	resor	_	NN	NN	_	5	PA	_	_
 7	till	_	PR	PR	_	6	ET	_	_
@@ -2507,11 +2507,11 @@
 11	eller	_	++	++	_	12	++	_	_
 12	sjukhuset	_	NN	NN	_	10	CC	_	_
 13	får	_	FV	FV	_	3	+F	_	_
-14	du	_	PO	PO	_	13	SS	_	_
+14	du	_	PO	PO	_	15	DT	_	_
 15	ersättning	_	VN	VN	_	13	OO	_	_
 16	från	_	PR	PR	_	15	ET	_	_
 17	försäkringskassan	_	NN	NN	_	16	PA	_	_
-18	efter	_	PR	PR	_	13	OA	_	_
+18	efter	_	PR	PR	_	3	AA	_	_
 19	samma	_	PO	PO	_	20	DT	_	_
 20	regler	_	NN	NN	_	18	PA	_	_
 21	som	_	UK	UK	_	22	UK	_	_
@@ -2546,7 +2546,7 @@
 4	eller	_	++	++	_	5	++	_	_
 5	lämna	_	VV	VV	_	1	+F	_	_
 6	det	_	PO	PO	_	5	OO	_	_
-7	på	_	PR	PR	_	5	RA	_	_
+7	på	_	PR	PR	_	5	OA	_	_
 8	försäkringskassan	_	NN	NN	_	7	PA	_	_
 9	så	_	AB	AB	_	10	AA	_	_
 10	får	_	FV	FV	_	1	MS	_	_
@@ -2598,14 +2598,14 @@
 1	Sedan	_	AB	AB	_	2	AA	_	_
 2	får	_	FV	FV	_	0	ROOT	_	_
 3	du	_	PO	PO	_	2	SS	_	_
-4	som	_	UK	UK	_	5	UK	_	_
-5	vanligt	_	AJ	AJ	_	2	OO	_	_
+4	som	_	UK	UK	_	0		_	_
+5	vanligt	_	AJ	AJ	_	0		_	_
 6	en	_	EN	EN	_	8	DT	_	_
 7	viss	_	PO	PO	_	8	DT	_	_
-8	återbäring	_	VN	VN	_	2	OO	_	_
+8	återbäring	_	VN	VN	_	0		_	_
 9	från	_	PR	PR	_	8	ET	_	_
 10	försäkringskassan	_	NN	NN	_	9	PA	_	_
-11	.	_	IP	IP	_	2	IP	_	_
+11	.	_	IP	IP	_	8	IP	_	_
 
 1	Bättre	_	AJ	AJ	_	2	AT	_	_
 2	sjukförsäkringsförmåner	_	NN	NN	_	0		_	_
@@ -2634,7 +2634,7 @@
 9	dagars	_	NN	NN	_	6	PA	_	_
 10	fri	_	AJ	AJ	_	11	AT	_	_
 11	sjukhusvård	_	NN	NN	_	4	OO	_	_
-12	på	_	PR	PR	_	4	AA	_	_
+12	på	_	PR	PR	_	2	AA	_	_
 13	allmän	_	AJ	AJ	_	14	AT	_	_
 14	sal	_	NN	NN	_	12	PA	_	_
 15	.	_	IP	IP	_	2	IP	_	_
@@ -2642,9 +2642,9 @@
 1	Från	_	PR	PR	_	3	TA	_	_
 2	årsskiftet	_	NN	NN	_	1	PA	_	_
 3	förlängs	_	VV	VV	_	0	ROOT	_	_
-4	den	_	PO	PO	_	6	DT	_	_
+4	den	_	PO	PO	_	3	SS	_	_
 5	fria	_	AJ	AJ	_	6	AT	_	_
-6	vårdtiden	_	NN	NN	_	3	SS	_	_
+6	vårdtiden	_	NN	NN	_	3	OO	_	_
 7	till	_	PR	PR	_	3	OA	_	_
 8	sammanlagt	_	AB	AB	_	9	AA	_	_
 9	365	_	RO	RO	_	10	DT	_	_
@@ -2701,20 +2701,20 @@
 9	arbete	_	NN	NN	_	8	PA	_	_
 10	)	_	IR	IR	_	11	SS	_	_
 11	har	_	HV	HV	_	0	ROOT	_	_
-12	i	_	PR	PR	_	11	TA	_	_
+12	i	_	PR	PR	_	11	AA	_	_
 13	fortsättningen	_	VN	VN	_	14	DT	_	_
 14	rätt	_	NN	NN	_	12	PA	_	_
 15	till	_	PR	PR	_	11	AA	_	_
-16	både	_	AB	AB	_	29	VA	_	_
+16	både	_	AB	AB	_	24	CA	_	_
 17	sjukpenning	_	NN	NN	_	24	DT	_	_
 18	i	_	PR	PR	_	17	ET	_	_
 19	sammanlagt	_	AB	AB	_	20	AA	_	_
 20	180	_	RO	RO	_	21	DT	_	_
 21	dagar	_	NN	NN	_	18	PA	_	_
 22	och	_	++	++	_	23	++	_	_
-23	fri	_	AJ	AJ	_	17	CC	_	_
-24	sjukvård	_	NN	NN	_	29	SS	_	_
-25	i	_	PR	PR	_	24	ET	_	_
+23	fri	_	AJ	AJ	_	18	CC	_	_
+24	sjukvård	_	NN	NN	_	15	PA	_	_
+25	i	_	PR	PR	_	11	AA	_	_
 26	sammanlagt	_	AB	AB	_	27	AA	_	_
 27	365	_	RO	RO	_	28	DT	_	_
 28	dagar	_	NN	NN	_	25	PA	_	_
@@ -2733,27 +2733,27 @@
 11	sjukhus	_	NN	NN	_	10	PA	_	_
 12	hela	_	PO	PO	_	13	DT	_	_
 13	år	_	NN	NN	_	9	OO	_	_
-14	1969	_	RO	RO	_	13	ET	_	_
-15	.	_	IP	IP	_	4	IP	_	_
+14	1969	_	RO	RO	_	0		_	_
+15	.	_	IP	IP	_	14	IP	_	_
 
 1	(	_	IR	IR	_	0		_	_
-2	Om	_	UK	UK	_	0		_	_
-3	de	_	PO	PO	_	0		_	_
-4	såsom	_	UK	UK	_	0		_	_
-5	pensionärer	_	NN	NN	_	0		_	_
-6	fått	_	FV	FV	_	0		_	_
-7	sjukhjälp	_	NN	NN	_	6	OO	_	_
-8	i	_	PR	PR	_	6	OA	_	_
+2	Om	_	UK	UK	_	18	UK	_	_
+3	de	_	PO	PO	_	17	DT	_	_
+4	såsom	_	UK	UK	_	17	UK	_	_
+5	pensionärer	_	NN	NN	_	7	DT	_	_
+6	fått	_	FV	FV	_	7	DT	_	_
+7	sjukhjälp	_	NN	NN	_	17	SS	_	_
+8	i	_	PR	PR	_	7	ET	_	_
 9	sammanlagt	_	AB	AB	_	10	AA	_	_
 10	180	_	RO	RO	_	11	DT	_	_
 11	dagar	_	NN	NN	_	8	PA	_	_
-12	före	_	PR	PR	_	6	OA	_	_
+12	före	_	PR	PR	_	7	ET	_	_
 13	den	_	PO	PO	_	15	DT	_	_
 14	1	_	RO	RO	_	15	DT	_	_
 15	januari	_	NN	NN	_	12	PA	_	_
 16	1970	_	RO	RO	_	15	ET	_	_
-17	)	_	IR	IR	_	6	JR	_	_
-18	.	_	IP	IP	_	6	IP	_	_
+17	)	_	IR	IR	_	18	SS	_	_
+18	.	_	IP	IP	_	1	IP	_	_
 
 1	Ändrade	_	TP	TP	_	2	AT	_	_
 2	förmåner	_	NN	NN	_	0		_	_
@@ -2791,8 +2791,8 @@
 5	som	_	UK	UK	_	7	UK	_	_
 6	'	_	IC	IC	_	7	IC	_	_
 7	permission	_	NN	NN	_	4	OO	_	_
-8	'	_	IC	IC	_	0		_	_
-9	.	_	IP	IP	_	8	IP	_	_
+8	'	_	IC	IC	_	4	JC	_	_
+9	.	_	IP	IP	_	4	IP	_	_
 
 1	Kostnaderna	_	NN	NN	_	8	SS	_	_
 2	för	_	PR	PR	_	1	ET	_	_
@@ -2818,7 +2818,7 @@
 4	på	_	PR	PR	_	3	ET	_	_
 5	sjukhus	_	NN	NN	_	4	PA	_	_
 6	och	_	++	++	_	7	++	_	_
-7	vid	_	PR	PR	_	1	CC	_	_
+7	vid	_	PR	PR	_	3	CC	_	_
 8	utskrivning	_	VN	VN	_	7	PA	_	_
 9	ersätts	_	VV	VV	_	0	ROOT	_	_
 10	som	_	UK	UK	_	12	UK	_	_
@@ -2864,20 +2864,20 @@
 7	t	_	AB	AB	_	6	TA	_	_
 8	ex	_	ID	ID	_	7	HD	_	_
 9	specialist	_	NN	NN	_	6	OO	_	_
-10	)	_	IR	IR	_	0		_	_
-11	långt	_	AJ	AJ	_	0		_	_
+10	)	_	IR	IR	_	14	DT	_	_
+11	långt	_	AJ	AJ	_	14	AT	_	_
 12	hemifrån	_	AB	AB	_	13	AA	_	_
-13	kan	_	QV	QV	_	0		_	_
-14	försäkringskassan	_	NN	NN	_	13	SS	_	_
+13	kan	_	QV	QV	_	14	DT	_	_
+14	försäkringskassan	_	NN	NN	_	6	OO	_	_
 15	i	_	PR	PR	_	14	ET	_	_
 16	vissa	_	PO	PO	_	17	DT	_	_
 17	fall	_	NN	NN	_	15	PA	_	_
-18	ersätta	_	VV	VV	_	13	VG	_	_
+18	ersätta	_	VV	VV	_	6	VG	_	_
 19	dina	_	PO	PO	_	20	DT	_	_
 20	utgifter	_	NN	NN	_	18	OO	_	_
 21	för	_	PR	PR	_	18	OA	_	_
 22	övernattning	_	VN	VN	_	21	PA	_	_
-23	.	_	IP	IP	_	13	IP	_	_
+23	.	_	IP	IP	_	6	IP	_	_
 
 1	Enligt	_	PR	PR	_	5	RA	_	_
 2	de	_	PO	PO	_	4	DT	_	_
@@ -2885,9 +2885,9 @@
 4	reglerna	_	NN	NN	_	1	PA	_	_
 5	kan	_	QV	QV	_	0	ROOT	_	_
 6	du	_	PO	PO	_	5	SS	_	_
-7	få	_	FV	FV	_	5	VG	_	_
-8	ersättning	_	VN	VN	_	7	OO	_	_
-9	med	_	PR	PR	_	7	OA	_	_
+7	få	_	FV	FV	_	8	AT	_	_
+8	ersättning	_	VN	VN	_	5	VG	_	_
+9	med	_	PR	PR	_	8	ET	_	_
 10	högre	_	AJ	AJ	_	11	AT	_	_
 11	belopp	_	NN	NN	_	9	PA	_	_
 12	och	_	++	++	_	13	++	_	_
@@ -2931,7 +2931,7 @@
 14	vid	_	PR	PR	_	13	OA	_	_
 15	sjukhusvård	_	NN	NN	_	14	PA	_	_
 16	höjs	_	VV	VV	_	2	VG	_	_
-17	till	_	PR	PR	_	16	OA	_	_
+17	till	_	PR	PR	_	16	RA	_	_
 18	10	_	RO	RO	_	19	DT	_	_
 19	kronor	_	NN	NN	_	17	PA	_	_
 20	om	_	PR	PR	_	19	ET	_	_
@@ -2947,14 +2947,14 @@
 7	statsbidrag	_	NN	NN	_	5	CC	_	_
 8	.	_	IP	IP	_	2	IP	_	_
 
-1	De	_	PO	PO	_	4	DT	_	_
-2	försäkrades	_	TP	TP	_	4	AT	_	_
+1	De	_	PO	PO	_	0		_	_
+2	försäkrades	_	TP	TP	_	0		_	_
 3	egna	_	PO	PO	_	4	DT	_	_
 4	sjukförsäkringsavgifter	_	NN	NN	_	5	SS	_	_
-5	påverkas	_	VV	VV	_	0	ROOT	_	_
-6	däremot	_	AB	AB	_	5	MA	_	_
+5	påverkas	_	VV	VV	_	2	ET	_	_
+6	däremot	_	AB	AB	_	5	AA	_	_
 7	inte	_	AB	AB	_	5	NA	_	_
-8	.	_	IP	IP	_	5	IP	_	_
+8	.	_	IP	IP	_	2	IP	_	_
 
 1	Försäkringskassan	_	NN	NN	_	2	SS	_	_
 2	kan	_	QV	QV	_	0	ROOT	_	_
@@ -2993,10 +2993,10 @@
 
 1	Eller	_	++	++	_	2	++	_	_
 2	titta	_	VV	VV	_	0	ROOT	_	_
-3	in	_	AB	AB	_	2	AA	_	_
+3	in	_	AB	AB	_	2	MA	_	_
 4	till	_	PR	PR	_	2	OA	_	_
 5	oss	_	PO	PO	_	4	PA	_	_
-6	på	_	PR	PR	_	2	RA	_	_
+6	på	_	PR	PR	_	2	OA	_	_
 7	försäkringskassan	_	NN	NN	_	6	PA	_	_
 8	.	_	IP	IP	_	2	IP	_	_
 
@@ -3013,10 +3013,10 @@
 2	uppskattar	_	VV	VV	_	0	ROOT	_	_
 3	dem	_	PO	PO	_	2	OO	_	_
 4	till	_	PR	PR	_	2	OA	_	_
-5	närmare	_	AB	AB	_	8	RA	_	_
-6	600000	_	RO	RO	_	8	SS	_	_
+5	närmare	_	AB	AB	_	0		_	_
+6	600000	_	RO	RO	_	0		_	_
 7	och	_	++	++	_	8	++	_	_
-8	räknar	_	VV	VV	_	4	PA	_	_
+8	räknar	_	VV	VV	_	6	CC	_	_
 9	då	_	AB	AB	_	8	AA	_	_
 10	in	_	AB	AB	_	8	PL	_	_
 11	såväl	_	AB	AB	_	0		_	_
@@ -3046,7 +3046,7 @@
 1	Det	_	PO	PO	_	2	SS	_	_
 2	fanns	_	VV	VV	_	0	ROOT	_	_
 3	230000	_	RO	RO	_	6	DT	_	_
-4	arbetsanmälda	_	TP	TP	_	6	AT	_	_
+4	arbetsanmälda	_	TP	TP	_	6	DT	_	_
 5	utländska	_	AJ	AJ	_	6	AT	_	_
 6	medborgare	_	NN	NN	_	2	OO	_	_
 7	i	_	PR	PR	_	6	ET	_	_
@@ -3062,12 +3062,12 @@
 3	våra	_	PO	PO	_	5	DT	_	_
 4	största	_	AJ	AJ	_	5	AT	_	_
 5	invandrargrupper	_	NN	NN	_	2	SP	_	_
-6	?	_	I?	I?	_	2	I?	_	_
+6	?	_	I?	I?	_	2	AA	_	_
 
 1	Antalet	_	NN	NN	_	0		_	_
 2	arbetsanmälda	_	TP	TP	_	0		_	_
-3	fördelat	_	TP	TP	_	8	AT	_	_
-4	på	_	PR	PR	_	3	OA	_	_
+3	fördelat	_	TP	TP	_	0		_	_
+4	på	_	PR	PR	_	8	AA	_	_
 5	de	_	PO	PO	_	7	DT	_	_
 6	största	_	AJ	AJ	_	7	AT	_	_
 7	nationsgrupperna	_	NN	NN	_	4	PA	_	_
@@ -3104,10 +3104,10 @@
 29	)	_	IR	IR	_	0		_	_
 30	och	_	++	++	_	31	++	_	_
 31	italienare	_	NN	NN	_	29	CC	_	_
-32	(	_	IR	IR	_	34	DT	_	_
+32	(	_	IR	IR	_	0		_	_
 33	5000	_	RO	RO	_	34	DT	_	_
-34	)	_	IR	IR	_	29	ET	_	_
-35	.	_	IP	IP	_	29	IP	_	_
+34	)	_	IR	IR	_	32	PA	_	_
+35	.	_	IP	IP	_	32	IP	_	_
 
 1	Invandrarna	_	NN	NN	_	6	SS	_	_
 2	från	_	PR	PR	_	1	ET	_	_
@@ -3124,7 +3124,7 @@
 13	Sverige	_	PN	PN	_	12	PA	_	_
 14	.	_	IP	IP	_	6	IP	_	_
 
-1	Var	_	AB	AB	_	2	CA	_	_
+1	Var	_	AB	AB	_	4	RA	_	_
 2	i	_	PR	PR	_	4	AA	_	_
 3	Sverige	_	PN	PN	_	2	PA	_	_
 4	finns	_	VV	VV	_	0	ROOT	_	_
@@ -3135,11 +3135,11 @@
 2	är	_	AV	AV	_	0	ROOT	_	_
 3	koncentrerade	_	TP	TP	_	2	SP	_	_
 4	till	_	PR	PR	_	2	OA	_	_
-5	södra	_	PO	PO	_	9	DT	_	_
+5	södra	_	PO	PO	_	10	DT	_	_
 6	och	_	++	++	_	9	++	_	_
 7	mellersta	_	PO	PO	_	9	DT	_	_
 8	Sveriges	_	PN	PN	_	9	DT	_	_
-9	industribygder	_	NN	NN	_	4	PA	_	_
+9	industribygder	_	NN	NN	_	5	CC	_	_
 10	.	_	IP	IP	_	2	IP	_	_
 
 1	De	_	PO	PO	_	3	DT	_	_
@@ -3195,7 +3195,7 @@
 22	procent	_	NN	NN	_	30	SS	_	_
 23	av	_	PR	PR	_	22	ET	_	_
 24	invandrarna	_	NN	NN	_	23	PA	_	_
-25	mot	_	PR	PR	_	24	ET	_	_
+25	mot	_	PR	PR	_	22	ET	_	_
 26	11,5	_	RO	RO	_	27	DT	_	_
 27	procent	_	NN	NN	_	25	PA	_	_
 28	av	_	PR	PR	_	27	ET	_	_
@@ -3207,10 +3207,10 @@
 34	.	_	IP	IP	_	3	IP	_	_
 
 1	Kan	_	QV	QV	_	0		_	_
-2	vem	_	PO	PO	_	1	SS	_	_
+2	vem	_	PO	PO	_	5	SS	_	_
 3	som	_	ID	ID	_	2	HD	_	_
 4	helst	_	ID	ID	_	2	HD	_	_
-5	slå	_	VV	VV	_	1	VG	_	_
+5	slå	_	VV	VV	_	1	ET	_	_
 6	sig	_	PO	PO	_	5	OO	_	_
 7	ned	_	AB	AB	_	5	PL	_	_
 8	i	_	PR	PR	_	5	RA	_	_
@@ -3274,10 +3274,10 @@
 3	av	_	PR	PR	_	2	OA	_	_
 4	statens	_	NN	NN	_	5	DT	_	_
 5	invandrarverk	_	NN	NN	_	3	PA	_	_
-6	(	_	IR	IR	_	0		_	_
-7	Siv	_	PN	PN	_	0		_	_
-8	)	_	IR	IR	_	0		_	_
-9	efter	_	PR	PR	_	19	TA	_	_
+6	(	_	IR	IR	_	2	TA	_	_
+7	Siv	_	PN	PN	_	2	TA	_	_
+8	)	_	IR	IR	_	2	TA	_	_
+9	efter	_	PR	PR	_	2	OA	_	_
 10	tillstyrkan	_	VN	VN	_	9	PA	_	_
 11	av	_	PR	PR	_	10	ET	_	_
 12	arbetsmarknadsstyrelsen	_	VN	VN	_	11	PA	_	_
@@ -3287,7 +3287,7 @@
 16	läget	_	NN	NN	_	15	OO	_	_
 17	på	_	PR	PR	_	15	OA	_	_
 18	arbetsmarknaden	_	NN	NN	_	17	PA	_	_
-19	.	_	IP	IP	_	0		_	_
+19	.	_	IP	IP	_	2	IP	_	_
 
 1	De	_	PO	PO	_	3	DT	_	_
 2	fackliga	_	AJ	AJ	_	3	AT	_	_
@@ -3353,13 +3353,13 @@
 2	t	_	AB	AB	_	4	AA	_	_
 3	ex	_	ID	ID	_	2	HD	_	_
 4	har	_	HV	HV	_	0	ROOT	_	_
-5	60000	_	RO	RO	_	6	DT	_	_
+5	60000	_	RO	RO	_	4	VG	_	_
 6	invandrare	_	NN	NN	_	4	OO	_	_
 7	av	_	PR	PR	_	6	ET	_	_
 8	60	_	RO	RO	_	9	DT	_	_
 9	nationaliteter	_	AN	AN	_	7	PA	_	_
 10	som	_	UK	UK	_	11	UK	_	_
-11	medlemmar	_	NN	NN	_	6	AN	_	_
+11	medlemmar	_	NN	NN	_	4	OO	_	_
 12	och	_	++	++	_	13	++	_	_
 13	av	_	PR	PR	_	4	+F	_	_
 14	medlemmarna	_	NN	NN	_	13	PA	_	_
@@ -3369,7 +3369,7 @@
 18	Restauranganställdas	_	ID	ID	_	16	HD	_	_
 19	förbund	_	ID	ID	_	16	HD	_	_
 20	är	_	AV	AV	_	4	VG	_	_
-21	uppskattningsvis	_	AB	AB	_	24	AA	_	_
+21	uppskattningsvis	_	AB	AB	_	24	DT	_	_
 22	40	_	RO	RO	_	23	DT	_	_
 23	procent	_	NN	NN	_	24	DT	_	_
 24	invandrare	_	NN	NN	_	20	SP	_	_
@@ -3386,13 +3386,13 @@
 9	familj	_	NN	NN	_	6	CC	_	_
 10	skall	_	SV	SV	_	2	OO	_	_
 11	ges	_	VV	VV	_	10	VG	_	_
-12	en	_	EN	EN	_	17	DT	_	_
-13	i	_	PR	PR	_	17	DT	_	_
+12	en	_	EN	EN	_	11	OO	_	_
+13	i	_	PR	PR	_	11	OA	_	_
 14	alla	_	PO	PO	_	15	DT	_	_
 15	avseenden	_	VN	VN	_	13	PA	_	_
 16	likvärdig	_	AJ	AJ	_	17	AT	_	_
 17	ställning	_	VN	VN	_	11	OO	_	_
-18	med	_	PR	PR	_	17	ET	_	_
+18	med	_	PR	PR	_	11	OA	_	_
 19	de	_	PO	PO	_	21	DT	_	_
 20	svenska	_	AJ	AJ	_	21	AT	_	_
 21	medborgarna	_	NN	NN	_	18	PA	_	_
@@ -3405,7 +3405,7 @@
 5	medborgare	_	NN	NN	_	3	OO	_	_
 6	i	_	PR	PR	_	5	ET	_	_
 7	Sverige	_	PN	PN	_	6	PA	_	_
-8	?	_	I?	I?	_	3	I?	_	_
+8	?	_	I?	I?	_	3	TA	_	_
 
 1	Utländska	_	AJ	AJ	_	2	AT	_	_
 2	medborgare	_	NN	NN	_	3	SS	_	_
@@ -3442,7 +3442,7 @@
 17	och	_	++	++	_	18	++	_	_
 18	sjukvård	_	NN	NN	_	16	CC	_	_
 19	som	_	UK	UK	_	20	UK	_	_
-20	svenskar	_	NN	NN	_	16	CC	_	_
+20	svenskar	_	NN	NN	_	2	OO	_	_
 21	.	_	IP	IP	_	2	IP	_	_
 
 1	De	_	PO	PO	_	3	DT	_	_
@@ -3499,20 +3499,20 @@
 6	hemland	_	NN	NN	_	4	OO	_	_
 7	,	_	IK	IK	_	6	IK	_	_
 8	där	_	AB	AB	_	30	RA	_	_
-9	han	_	PO	PO	_	22	DT	_	_
-10	på	_	PR	PR	_	22	AA	_	_
+9	han	_	PO	PO	_	30	SS	_	_
+10	på	_	PR	PR	_	30	TA	_	_
 11	grund	_	ID	ID	_	10	HD	_	_
 12	av	_	ID	ID	_	10	HD	_	_
 13	sin	_	PO	PO	_	14	DT	_	_
 14	härstamning	_	VN	VN	_	12	PA	_	_
 15	,	_	IK	IK	_	10	IK	_	_
-16	tillhörighet	_	AN	AN	_	10	PA	_	_
+16	tillhörighet	_	AN	AN	_	22	DT	_	_
 17	till	_	PR	PR	_	16	ET	_	_
 18	viss	_	PO	PO	_	19	DT	_	_
 19	samhällsgrupp	_	NN	NN	_	17	PA	_	_
 20	eller	_	++	++	_	21	++	_	_
 21	politisk	_	AJ	AJ	_	19	CC	_	_
-22	uppfattning	_	VN	VN	_	30	SS	_	_
+22	uppfattning	_	VN	VN	_	10	AN	_	_
 23	eller	_	++	++	_	24	++	_	_
 24	eljest	_	AB	AB	_	22	CC	_	_
 25	på	_	PR	PR	_	24	AA	_	_
@@ -3532,7 +3532,7 @@
 39	kan	_	QV	QV	_	0	ROOT	_	_
 40	få	_	FV	FV	_	39	VG	_	_
 41	rätt	_	NN	NN	_	40	OO	_	_
-42	till	_	PR	PR	_	40	OO	_	_
+42	till	_	PR	PR	_	40	OA	_	_
 43	asyl	_	NN	NN	_	42	PA	_	_
 44	.	_	IP	IP	_	39	IP	_	_
 
@@ -3549,8 +3549,8 @@
 11	skydd	_	NN	NN	_	8	OO	_	_
 12	mot	_	PR	PR	_	8	OA	_	_
 13	hemlandets	_	NN	NN	_	12	PA	_	_
-14	myndigheter	_	AN	AN	_	8	OO	_	_
-15	utan	_	PR	PR	_	14	ET	_	_
+14	myndigheter	_	AN	AN	_	3	OO	_	_
+15	utan	_	PR	PR	_	3	OA	_	_
 16	att	_	UK	UK	_	18	UK	_	_
 17	åtgärden	_	NN	NN	_	18	SS	_	_
 18	betraktas	_	VV	VV	_	15	PA	_	_
@@ -3576,7 +3576,7 @@
 5	sig	_	PO	PO	_	4	OO	_	_
 6	och	_	++	++	_	8	++	_	_
 7	sin	_	PO	PO	_	8	DT	_	_
-8	familj	_	NN	NN	_	4	OO	_	_
+8	familj	_	NN	NN	_	5	CC	_	_
 9	.	_	IP	IP	_	2	IP	_	_
 
 1	Han	_	PO	PO	_	2	SS	_	_
@@ -3587,26 +3587,26 @@
 6	att	_	UK	UK	_	8	UK	_	_
 7	han	_	PO	PO	_	8	SS	_	_
 8	kan	_	QV	QV	_	5	PA	_	_
-9	svenska	_	NN	NN	_	0		_	_
+9	svenska	_	NN	NN	_	2	OO	_	_
 
 1	För	_	PR	PR	_	0		_	_
-2	att	_	IM	IM	_	9	IM	_	_
-3	få	_	FV	FV	_	9	SS	_	_
+2	att	_	IM	IM	_	0		_	_
+3	få	_	FV	FV	_	8	SS	_	_
 4	medborgarskap	_	NN	NN	_	5	SS	_	_
-5	skall	_	SV	SV	_	3	OO	_	_
+5	skall	_	SV	SV	_	3	ET	_	_
 6	nordiska	_	AJ	AJ	_	7	AT	_	_
 7	medborgare	_	NN	NN	_	5	OO	_	_
-8	ha	_	HV	HV	_	5	VG	_	_
-9	vistats	_	VV	VV	_	1	PA	_	_
-10	i	_	PR	PR	_	9	OA	_	_
+8	ha	_	HV	HV	_	2	ET	_	_
+9	vistats	_	VV	VV	_	8	VG	_	_
+10	i	_	PR	PR	_	9	RA	_	_
 11	Sverige	_	PN	PN	_	10	PA	_	_
 12	tre	_	RO	RO	_	13	DT	_	_
-13	år	_	NN	NN	_	9	OO	_	_
+13	år	_	NN	NN	_	10	PA	_	_
 14	och	_	++	++	_	15	++	_	_
 15	icke-nordbor	_	NN	NN	_	13	CC	_	_
 16	sju	_	RO	RO	_	17	DT	_	_
 17	år	_	NN	NN	_	13	AN	_	_
-18	.	_	IP	IP	_	1	IP	_	_
+18	.	_	IP	IP	_	2	IP	_	_
 
 1	Nordbor	_	NN	NN	_	2	SS	_	_
 2	kan	_	QV	QV	_	0	ROOT	_	_
@@ -3633,7 +3633,7 @@
 5	fått	_	FV	FV	_	4	VG	_	_
 6	svenskt	_	AJ	AJ	_	7	AT	_	_
 7	medborgarskap	_	NN	NN	_	5	OO	_	_
-8	sedan	_	PR	PR	_	7	ET	_	_
+8	sedan	_	PR	PR	_	5	OA	_	_
 9	början	_	VN	VN	_	8	PA	_	_
 10	av	_	PR	PR	_	9	ET	_	_
 11	1940-talet	_	NN	NN	_	10	PA	_	_
@@ -3643,22 +3643,22 @@
 2	svenska	_	AJ	AJ	_	3	AT	_	_
 3	myndigheter	_	AN	AN	_	4	SS	_	_
 4	är	_	AV	AV	_	0	ROOT	_	_
-5	det	_	PO	PO	_	8	SS	_	_
-6	främst	_	AB	AB	_	8	TA	_	_
+5	det	_	PO	PO	_	6	DT	_	_
+6	främst	_	AB	AB	_	4	SP	_	_
 7	som	_	PO	PO	_	8	SS	_	_
-8	sysslar	_	VV	VV	_	4	MA	_	_
+8	sysslar	_	VV	VV	_	4	ES	_	_
 9	med	_	PR	PR	_	8	OA	_	_
 10	invandrarfrågor	_	NN	NN	_	9	PA	_	_
 11	?	_	I?	I?	_	4	I?	_	_
 
-1	Invandrarverket	_	NN	NN	_	0		_	_
+1	Invandrarverket	_	NN	NN	_	5	SS	_	_
 2	som	_	PO	PO	_	3	SS	_	_
 3	började	_	VV	VV	_	1	ET	_	_
-4	sin	_	PO	PO	_	5	DT	_	_
-5	verksamhet	_	AN	AN	_	3	OO	_	_
+4	sin	_	PO	PO	_	3	OO	_	_
+5	verksamhet	_	AN	AN	_	0	ROOT	_	_
 6	den	_	PO	PO	_	8	DT	_	_
 7	1	_	RO	RO	_	8	DT	_	_
-8	juli	_	NN	NN	_	3	OO	_	_
+8	juli	_	NN	NN	_	5	OO	_	_
 9	1969	_	RO	RO	_	0		_	_
 10	handlägger	_	VV	VV	_	0		_	_
 11	tillstånd-	_	NN	NN	_	10	OO	_	_
@@ -3690,7 +3690,7 @@
 
 1	Den	_	PO	PO	_	2	SS	_	_
 2	sköter	_	VV	VV	_	0	ROOT	_	_
-3	också	_	AB	AB	_	2	+A	_	_
+3	också	_	AB	AB	_	2	TA	_	_
 4	mottagandet	_	VN	VN	_	2	OO	_	_
 5	av	_	PR	PR	_	4	ET	_	_
 6	flyktingarna	_	NN	NN	_	5	PA	_	_
@@ -3766,7 +3766,7 @@
 4	ett	_	EN	EN	_	6	DT	_	_
 5	litet	_	AJ	AJ	_	6	AT	_	_
 6	mellanrum	_	NN	NN	_	3	PA	_	_
-7	(	_	IR	IR	_	2	TA	_	_
+7	(	_	IR	IR	_	2	OO	_	_
 8	vid	_	PR	PR	_	2	OA	_	_
 9	maskinskrift	_	NN	NN	_	8	PA	_	_
 10	ett	_	EN	EN	_	11	DT	_	_
@@ -3787,7 +3787,7 @@
 25	maskinskrift	_	NN	NN	_	27	DT	_	_
 26	två	_	RO	RO	_	27	DT	_	_
 27	mellanslag	_	NN	NN	_	24	PA	_	_
-28	)	_	IR	IR	_	2	OO	_	_
+28	)	_	IR	IR	_	2	TA	_	_
 29	mellan	_	PR	PR	_	2	OA	_	_
 30	sista	_	PO	PO	_	31	DT	_	_
 31	siffran	_	NN	NN	_	29	PA	_	_
@@ -3831,7 +3831,7 @@
 12	för	_	PR	PR	_	10	OA	_	_
 13	att	_	IM	IM	_	14	IM	_	_
 14	kunna	_	QV	QV	_	12	PA	_	_
-15	fungera	_	VV	VV	_	10	OO	_	_
+15	fungera	_	VV	VV	_	10	VG	_	_
 16	.	_	IP	IP	_	10	IP	_	_
 
 1	Men	_	++	++	_	5	++	_	_
@@ -3842,10 +3842,10 @@
 6	manuellt	_	AJ	AJ	_	5	AA	_	_
 7	,	_	IK	IK	_	8	IK	_	_
 8	underlättas	_	VV	VV	_	5	MS	_	_
-9	den	_	PO	PO	_	12	SS	_	_
+9	den	_	PO	PO	_	16	DT	_	_
 10	om	_	UK	UK	_	12	UK	_	_
 11	försändelserna	_	VN	VN	_	12	SS	_	_
-12	är	_	AV	AV	_	8	OO	_	_
+12	är	_	AV	AV	_	9	ET	_	_
 13	försedda	_	TP	TP	_	12	SP	_	_
 14	med	_	PR	PR	_	12	OA	_	_
 15	postnummer	_	NN	NN	_	14	PA	_	_
@@ -3882,7 +3882,7 @@
 19	orter	_	NN	NN	_	15	PA	_	_
 20	.	_	IP	IP	_	2	IP	_	_
 
-1	För	_	PR	PR	_	11	AA	_	_
+1	För	_	PR	PR	_	10	AA	_	_
 2	en	_	PO	PO	_	4	DT	_	_
 3	del	_	ID	ID	_	2	HD	_	_
 4	orter	_	NN	NN	_	1	PA	_	_
@@ -3891,13 +3891,13 @@
 7	har	_	HV	HV	_	4	ET	_	_
 8	flera	_	PO	PO	_	9	DT	_	_
 9	postanstalter	_	NN	NN	_	7	OO	_	_
-10	,	_	IK	IK	_	1	IK	_	_
-11	finns	_	VV	VV	_	0	ROOT	_	_
-12	flera	_	PO	PO	_	11	SS	_	_
+10	,	_	IK	IK	_	0	ROOT	_	_
+11	finns	_	VV	VV	_	10	VG	_	_
+12	flera	_	PO	PO	_	14	DT	_	_
 13	olika	_	AJ	AJ	_	14	AT	_	_
-14	postnummer	_	NN	NN	_	11	SS	_	_
+14	postnummer	_	NN	NN	_	11	OO	_	_
 15	angivna	_	TP	TP	_	11	OO	_	_
-16	.	_	IP	IP	_	11	IP	_	_
+16	.	_	IP	IP	_	10	IP	_	_
 
 1	Då	_	AB	AB	_	2	TA	_	_
 2	används	_	VV	VV	_	0	ROOT	_	_
@@ -3905,9 +3905,9 @@
 4	,	_	IK	IK	_	2	IK	_	_
 5	om	_	UK	UK	_	7	UK	_	_
 6	det	_	PO	PO	_	7	SS	_	_
-7	rör	_	VV	VV	_	2	MS	_	_
+7	rör	_	VV	VV	_	2	OO	_	_
 8	sig	_	PO	PO	_	7	OO	_	_
-9	om	_	PR	PR	_	7	RA	_	_
+9	om	_	PR	PR	_	7	OA	_	_
 10	post	_	NN	NN	_	9	PA	_	_
 11	med	_	PR	PR	_	10	ET	_	_
 12	gatuadress	_	NN	NN	_	11	PA	_	_
@@ -3949,20 +3949,20 @@
 27	box	_	NN	NN	_	25	CC	_	_
 28	.	_	IP	IP	_	10	IP	_	_
 
-1	För	_	PR	PR	_	7	AA	_	_
+1	För	_	PR	PR	_	4	RA	_	_
 2	post	_	NN	NN	_	1	PA	_	_
 3	som	_	PO	PO	_	4	SS	_	_
-4	adresseras	_	VV	VV	_	2	ET	_	_
-5	Poste	_	MN	MN	_	4	OO	_	_
+4	adresseras	_	VV	VV	_	0	ROOT	_	_
+5	Poste	_	MN	MN	_	0		_	_
 6	restante	_	ID	ID	_	5	HD	_	_
-7	är	_	AV	AV	_	0	ROOT	_	_
-8	postnumret	_	NN	NN	_	7	SS	_	_
+7	är	_	AV	AV	_	0		_	_
+8	postnumret	_	NN	NN	_	7	SP	_	_
 9	detsamma	_	PO	PO	_	7	SS	_	_
 10	som	_	UK	UK	_	14	UK	_	_
 11	för	_	PR	PR	_	14	AA	_	_
 12	fackadresserad	_	TP	TP	_	13	AT	_	_
 13	post	_	NN	NN	_	11	PA	_	_
-14	.	_	IP	IP	_	7	IP	_	_
+14	.	_	IP	IP	_	7	SP	_	_
 
 1	För	_	PR	PR	_	5	AA	_	_
 2	en	_	EN	EN	_	3	DT	_	_
@@ -3982,8 +3982,8 @@
 16	sida	_	NN	NN	_	14	PA	_	_
 17	i	_	PR	PR	_	16	ET	_	_
 18	del	_	NN	NN	_	17	PA	_	_
-19	2	_	RO	RO	_	13	ET	_	_
-20	av	_	PR	PR	_	13	ET	_	_
+19	2	_	RO	RO	_	5	OO	_	_
+20	av	_	PR	PR	_	5	OA	_	_
 21	katalogen	_	NN	NN	_	20	PA	_	_
 22	.	_	IP	IP	_	5	IP	_	_
 
@@ -3996,7 +3996,7 @@
 7	finna	_	VV	VV	_	5	OO	_	_
 8	i	_	PR	PR	_	7	RA	_	_
 9	del	_	NN	NN	_	8	PA	_	_
-10	1	_	RO	RO	_	9	ET	_	_
+10	1	_	RO	RO	_	5	TA	_	_
 11	,	_	IK	IK	_	12	IK	_	_
 12	bör	_	BV	BV	_	0	ROOT	_	_
 13	man	_	PO	PO	_	12	SS	_	_
@@ -4007,9 +4007,9 @@
 18	förekommer	_	VV	VV	_	15	PA	_	_
 19	i	_	PR	PR	_	18	RA	_	_
 20	del	_	NN	NN	_	19	PA	_	_
-21	3	_	RO	RO	_	20	ET	_	_
+21	3	_	RO	RO	_	18	TA	_	_
 22	,	_	IK	IK	_	0		_	_
-23	förteckning	_	VN	VN	_	0		_	_
+23	förteckning	_	VN	VN	_	34	SS	_	_
 24	över	_	PR	PR	_	23	ET	_	_
 25	indragna	_	TP	TP	_	28	AT	_	_
 26	och	_	++	++	_	27	++	_	_
@@ -4020,8 +4020,8 @@
 31	börjar	_	VV	VV	_	28	ET	_	_
 32	på	_	PR	PR	_	31	OA	_	_
 33	sid	_	NN	NN	_	32	PA	_	_
-34	189	_	RO	RO	_	33	ET	_	_
-35	.	_	IP	IP	_	23	IP	_	_
+34	189	_	RO	RO	_	22	ET	_	_
+35	.	_	IP	IP	_	22	IP	_	_
 
 1	Där	_	AB	AB	_	2	TA	_	_
 2	finns	_	VV	VV	_	0	ROOT	_	_
@@ -4033,7 +4033,7 @@
 8	postnummer	_	NN	NN	_	7	PA	_	_
 9	och	_	++	++	_	10	++	_	_
 10	ny	_	AJ	AJ	_	8	CC	_	_
-11	adresspostanstalt	_	NN	NN	_	2	SS	_	_
+11	adresspostanstalt	_	NN	NN	_	2	OO	_	_
 12	.	_	IP	IP	_	2	IP	_	_
 
 1	Del	_	NN	NN	_	0		_	_
@@ -4046,7 +4046,7 @@
 4	större	_	AJ	AJ	_	5	AT	_	_
 5	städer	_	NN	NN	_	3	AN	_	_
 6	och	_	++	++	_	7	++	_	_
-7	också	_	AB	AB	_	1	CC	_	_
+7	också	_	AB	AB	_	3	CC	_	_
 8	på	_	PR	PR	_	0	ROOT	_	_
 9	vissa	_	PO	PO	_	10	DT	_	_
 10	orter	_	NN	NN	_	8	PA	_	_
@@ -4058,13 +4058,13 @@
 16	största	_	AJ	AJ	_	17	AT	_	_
 17	städernas	_	NN	NN	_	18	DT	_	_
 18	närområden	_	NN	NN	_	13	PA	_	_
-19	har	_	HV	HV	_	0	ROOT	_	_
+19	har	_	HV	HV	_	0		_	_
 20	varje	_	PO	PO	_	21	DT	_	_
-21	ort	_	NN	NN	_	19	OO	_	_
+21	ort	_	NN	NN	_	19	SS	_	_
 22	inte	_	AB	AB	_	19	NA	_	_
-23	bara	_	AB	AB	_	24	AA	_	_
-24	ett	_	EN	EN	_	19	OO	_	_
-25	enda	_	PO	PO	_	34	DT	_	_
+23	bara	_	AB	AB	_	19	TA	_	_
+24	ett	_	EN	EN	_	0		_	_
+25	enda	_	PO	PO	_	0		_	_
 26	eller	_	++	++	_	29	++	_	_
 27	några	_	PO	PO	_	29	DT	_	_
 28	få	_	PO	PO	_	29	DT	_	_
@@ -4072,8 +4072,8 @@
 30	utan	_	++	++	_	33	++	_	_
 31	en	_	EN	EN	_	33	DT	_	_
 32	hel	_	PO	PO	_	33	DT	_	_
-33	nummerserie	_	NN	NN	_	29	CC	_	_
-34	.	_	IP	IP	_	19	IP	_	_
+33	nummerserie	_	NN	NN	_	25	CC	_	_
+34	.	_	IP	IP	_	25	IP	_	_
 
 1	På	_	PR	PR	_	4	AA	_	_
 2	de	_	PO	PO	_	3	DT	_	_
@@ -4088,7 +4088,7 @@
 11	snabbt	_	AJ	AJ	_	12	AA	_	_
 12	leda	_	VV	VV	_	9	PA	_	_
 13	försändelserna	_	VN	VN	_	12	OO	_	_
-14	till	_	PR	PR	_	13	ET	_	_
+14	till	_	PR	PR	_	12	OA	_	_
 15	rätt	_	AJ	AJ	_	16	AT	_	_
 16	utdelningsenhet	_	NN	NN	_	14	PA	_	_
 17	.	_	IP	IP	_	4	IP	_	_
@@ -4123,13 +4123,13 @@
 28	med	_	PR	PR	_	27	ET	_	_
 29	Angered	_	PN	PN	_	28	PA	_	_
 30	,	_	IK	IK	_	29	IK	_	_
-31	Hisings	_	PN	PN	_	29	ET	_	_
+31	Hisings	_	PN	PN	_	16	HD	_	_
 32	Backa	_	ID	ID	_	31	HD	_	_
 33	och	_	++	++	_	34	++	_	_
-34	Västra	_	PN	PN	_	31	CC	_	_
+34	Västra	_	PN	PN	_	32	CC	_	_
 35	Frölunda	_	ID	ID	_	34	HD	_	_
 36	-	_	IT	IT	_	0		_	_
-37	Halmstad	_	PN	PN	_	0		_	_
+37	Halmstad	_	PN	PN	_	72	CA	_	_
 38	,	_	IK	IK	_	39	IK	_	_
 39	Handen	_	PN	PN	_	37	CC	_	_
 40	,	_	IK	IK	_	41	IK	_	_
@@ -4164,7 +4164,7 @@
 69	med	_	PR	PR	_	68	ET	_	_
 70	Bandhagen	_	PN	PN	_	69	PA	_	_
 71	,	_	IK	IK	_	70	IK	_	_
-72	Bromma	_	PN	PN	_	70	ET	_	_
+72	Bromma	_	PN	PN	_	36	ET	_	_
 73	,	_	IK	IK	_	74	IK	_	_
 74	Enskede	_	PN	PN	_	72	CC	_	_
 75	,	_	IK	IK	_	76	IK	_	_
@@ -4179,8 +4179,8 @@
 84	Spånga	_	PN	PN	_	82	CC	_	_
 85	,	_	IK	IK	_	86	IK	_	_
 86	Vällingby	_	PN	PN	_	84	CC	_	_
-87	och	_	IK	IK	_	88	IK	_	_
-88	Älvsjö	_	PN	PN	_	86	CC	_	_
+87	och	_	IK	IK	_	0		_	_
+88	Älvsjö	_	PN	PN	_	0		_	_
 89	-	_	IT	IT	_	0		_	_
 90	Stocksund	_	PN	PN	_	0		_	_
 91	,	_	IK	IK	_	92	IK	_	_
@@ -4203,7 +4203,7 @@
 108	Örebro	_	PN	PN	_	106	CC	_	_
 109	.	_	IP	IP	_	90	IP	_	_
 
-1	För	_	PR	PR	_	7	AA	_	_
+1	För	_	PR	PR	_	7	TA	_	_
 2	varje	_	PO	PO	_	3	DT	_	_
 3	ort	_	NN	NN	_	1	PA	_	_
 4	i	_	PR	PR	_	3	ET	_	_
@@ -4218,7 +4218,7 @@
 13	och	_	++	++	_	14	++	_	_
 14	boxadresser	_	NN	NN	_	12	CC	_	_
 15	och	_	++	++	_	16	++	_	_
-16	för	_	PR	PR	_	9	CC	_	_
+16	för	_	PR	PR	_	11	CC	_	_
 17	olika	_	AJ	AJ	_	18	AT	_	_
 18	gator	_	NN	NN	_	16	PA	_	_
 19	,	_	IK	IK	_	20	IK	_	_
@@ -4239,30 +4239,30 @@
 11	,	_	IK	IK	_	8	IK	_	_
 12	specificeras	_	VV	VV	_	8	VG	_	_
 13	numren	_	NN	NN	_	12	OO	_	_
-14	på	_	PR	PR	_	13	ET	_	_
-15	det	_	PO	PO	_	14	PA	_	_
+14	på	_	PR	PR	_	12	OA	_	_
+15	det	_	PO	PO	_	17	DT	_	_
 16	här	_	ID	ID	_	15	HD	_	_
-17	sättet	_	NN	NN	_	15	HD	_	_
-18	(	_	IR	IR	_	0		_	_
-19	exemplet	_	NN	NN	_	0		_	_
-20	hämtat	_	TP	TP	_	0		_	_
-21	från	_	PR	PR	_	23	AA	_	_
+17	sättet	_	NN	NN	_	14	PA	_	_
+18	(	_	IR	IR	_	19	DT	_	_
+19	exemplet	_	NN	NN	_	8	OO	_	_
+20	hämtat	_	TP	TP	_	8	OO	_	_
+21	från	_	PR	PR	_	8	AA	_	_
 22	Borås	_	PN	PN	_	21	PA	_	_
-23	)	_	IR	IR	_	0		_	_
-24	:	_	IQ	IQ	_	0		_	_
+23	)	_	IR	IR	_	8	VG	_	_
+24	:	_	IQ	IQ	_	8	SS	_	_
 
-1	Södra	_	PN	PN	_	0		_	_
+1	Södra	_	PN	PN	_	3	SS	_	_
 2	Kyrkogatan	_	ID	ID	_	1	HD	_	_
-3	1	_	RO	RO	_	0		_	_
-4	-	_	PR	PR	_	0		_	_
+3	1	_	RO	RO	_	0	ROOT	_	_
+4	-	_	PR	PR	_	3	AA	_	_
 5	17	_	RO	RO	_	4	PA	_	_
 6	,	_	IK	IK	_	0		_	_
 7	2	_	RO	RO	_	0		_	_
 8	-	_	PR	PR	_	0		_	_
 9	18	_	RO	RO	_	8	PA	_	_
-10	50232	_	RO	RO	_	11	TA	_	_
-11	19	_	RO	RO	_	8	PA	_	_
-12	-	_	PR	PR	_	8	ET	_	_
+10	50232	_	RO	RO	_	0		_	_
+11	19	_	RO	RO	_	0		_	_
+12	-	_	PR	PR	_	11	ET	_	_
 13	,	_	IK	IK	_	0		_	_
 14	20	_	RO	RO	_	0		_	_
 15	-	_	PR	PR	_	0		_	_
@@ -4279,38 +4279,38 @@
 9	17	_	RO	RO	_	12	DT	_	_
 10	och	_	++	++	_	11	++	_	_
 11	jämna	_	AJ	AJ	_	9	CC	_	_
-12	husnummer	_	NN	NN	_	6	PA	_	_
+12	husnummer	_	NN	NN	_	5	AN	_	_
 13	t	_	PR	PR	_	12	ET	_	_
 14	o	_	ID	ID	_	13	HD	_	_
 15	m	_	ID	ID	_	13	HD	_	_
 16	18	_	RO	RO	_	0		_	_
 17	har	_	HV	HV	_	0		_	_
-18	postnumret	_	NN	NN	_	17	OO	_	_
-19	50232	_	RO	RO	_	17	OO	_	_
-20	.	_	IP	IP	_	17	IP	_	_
+18	postnumret	_	NN	NN	_	0		_	_
+19	50232	_	RO	RO	_	18	ET	_	_
+20	.	_	IP	IP	_	18	IP	_	_
 
 1	De	_	PO	PO	_	3	DT	_	_
 2	udda	_	AJ	AJ	_	3	AT	_	_
-3	husnumren	_	NN	NN	_	0		_	_
+3	husnumren	_	NN	NN	_	7	SS	_	_
 4	fr	_	PR	PR	_	3	ET	_	_
 5	o	_	ID	ID	_	4	HD	_	_
 6	m	_	ID	ID	_	4	HD	_	_
-7	19	_	RO	RO	_	0		_	_
+7	19	_	RO	RO	_	0	ROOT	_	_
 8	och	_	++	++	_	12	++	_	_
 9	uppåt	_	AB	AB	_	12	AA	_	_
-10	och	_	++	++	_	11	++	_	_
-11	de	_	PO	PO	_	9	CC	_	_
+10	och	_	++	++	_	12	++	_	_
+11	de	_	PO	PO	_	12	DT	_	_
 12	jämna	_	AJ	AJ	_	7	CC	_	_
-13	fr	_	PR	PR	_	7	ET	_	_
+13	fr	_	PR	PR	_	7	AA	_	_
 14	o	_	ID	ID	_	13	HD	_	_
 15	m	_	ID	ID	_	13	HD	_	_
-16	20	_	RO	RO	_	0		_	_
+16	20	_	RO	RO	_	21	DT	_	_
 17	och	_	++	++	_	19	++	_	_
 18	uppåt	_	AB	AB	_	19	AA	_	_
 19	har	_	HV	HV	_	16	CC	_	_
 20	postnumret	_	NN	NN	_	19	OO	_	_
-21	50233	_	RO	RO	_	16	ET	_	_
-22	.	_	IP	IP	_	16	IP	_	_
+21	50233	_	RO	RO	_	13	PA	_	_
+22	.	_	IP	IP	_	7	IP	_	_
 
 1	På	_	PR	PR	_	5	AA	_	_
 2	en	_	EN	EN	_	3	DT	_	_
@@ -4355,8 +4355,8 @@
 6	framgår	_	VV	VV	_	0	ROOT	_	_
 7	hur	_	AB	AB	_	6	PL	_	_
 8	adressen	_	NN	NN	_	6	OO	_	_
-9	skall	_	SV	SV	_	6	OO	_	_
-10	skrivas	_	VV	VV	_	6	MS	_	_
+9	skall	_	SV	SV	_	6	TA	_	_
+10	skrivas	_	VV	VV	_	6	VG	_	_
 11	i	_	PR	PR	_	10	RA	_	_
 12	ett	_	EN	EN	_	14	DT	_	_
 13	sådant	_	PO	PO	_	14	DT	_	_
@@ -4421,14 +4421,14 @@
 6	ort	_	NN	NN	_	4	PA	_	_
 7	i	_	PR	PR	_	6	ET	_	_
 8	del	_	NN	NN	_	7	PA	_	_
-9	2	_	RO	RO	_	12	DT	_	_
+9	2	_	RO	RO	_	2	TA	_	_
 10	ett	_	EN	EN	_	12	DT	_	_
 11	särskilt	_	AJ	AJ	_	12	AT	_	_
-12	postnummer	_	NN	NN	_	8	AN	_	_
-13	,	_	IK	IK	_	2	IK	_	_
+12	postnummer	_	NN	NN	_	2	OO	_	_
+13	,	_	IK	IK	_	12	IK	_	_
 14	'	_	IC	IC	_	15	IC	_	_
-15	samlingsnummer	_	MN	MN	_	2	MS	_	_
-16	'	_	IC	IC	_	0		_	_
+15	samlingsnummer	_	MN	MN	_	12	AN	_	_
+16	'	_	IC	IC	_	2	TA	_	_
 17	,	_	IK	IK	_	16	IK	_	_
 18	som	_	PO	PO	_	20	SS	_	_
 19	man	_	PO	PO	_	20	SS	_	_
@@ -4437,7 +4437,7 @@
 22	i	_	PR	PR	_	21	RA	_	_
 23	sådana	_	PO	PO	_	24	DT	_	_
 24	fall	_	NN	NN	_	22	PA	_	_
-25	.	_	IP	IP	_	16	IP	_	_
+25	.	_	IP	IP	_	2	IP	_	_
 
 1	Uppgift	_	NN	NN	_	5	SS	_	_
 2	om	_	PR	PR	_	1	ET	_	_
@@ -4460,11 +4460,11 @@
 6	alla	_	PO	PO	_	7	DT	_	_
 7	adressorter	_	NN	NN	_	5	PA	_	_
 8	(	_	IR	IR	_	9	DT	_	_
-9	ortnamn	_	NN	NN	_	10	SS	_	_
-10	)	_	IR	IR	_	0	ROOT	_	_
+9	ortnamn	_	NN	NN	_	4	+F	_	_
+10	)	_	IR	IR	_	4	TA	_	_
 11	,	_	IK	IK	_	10	IK	_	_
 12	som	_	PO	PO	_	13	SS	_	_
-13	ligger	_	VV	VV	_	10	+F	_	_
+13	ligger	_	VV	VV	_	10	ET	_	_
 14	inom	_	PR	PR	_	13	OA	_	_
 15	Göteborgs	_	PN	PN	_	16	DT	_	_
 16	stad	_	NN	NN	_	14	PA	_	_
@@ -4472,7 +4472,7 @@
 18	Stockholms	_	PN	PN	_	19	DT	_	_
 19	stad	_	NN	NN	_	16	CC	_	_
 20	,	_	IK	IK	_	21	IK	_	_
-21	är	_	AV	AV	_	0	ROOT	_	_
+21	är	_	AV	AV	_	4	MS	_	_
 22	sammanförda	_	TP	TP	_	21	SP	_	_
 23	i	_	PR	PR	_	21	RA	_	_
 24	två	_	RO	RO	_	26	DT	_	_
@@ -4483,7 +4483,7 @@
 29	för	_	PR	PR	_	21	OA	_	_
 30	vardera	_	PO	PO	_	31	DT	_	_
 31	staden	_	NN	NN	_	29	PA	_	_
-32	.	_	IP	IP	_	21	IP	_	_
+32	.	_	IP	IP	_	4	IP	_	_
 
 1	Varje	_	PO	PO	_	2	DT	_	_
 2	avsnitt	_	NN	NN	_	3	SS	_	_
@@ -4495,7 +4495,7 @@
 8	de	_	PO	PO	_	9	DT	_	_
 9	adressater	_	NN	NN	_	7	PA	_	_
 10	som	_	PO	PO	_	11	SS	_	_
-11	har	_	HV	HV	_	6	ET	_	_
+11	har	_	HV	HV	_	9	ET	_	_
 12	eget	_	PO	PO	_	13	DT	_	_
 13	postnummer	_	NN	NN	_	11	OO	_	_
 14	.	_	IP	IP	_	3	IP	_	_
@@ -4525,7 +4525,7 @@
 7	fack-	_	NN	NN	_	6	PA	_	_
 8	och	_	++	++	_	9	++	_	_
 9	boxadresser	_	NN	NN	_	7	CC	_	_
-10	vid	_	PR	PR	_	9	ET	_	_
+10	vid	_	PR	PR	_	2	AA	_	_
 11	varje	_	PO	PO	_	13	DT	_	_
 12	särskild	_	AJ	AJ	_	13	AT	_	_
 13	adresspostanstalt	_	NN	NN	_	10	PA	_	_
@@ -4538,9 +4538,9 @@
 5	förteckning	_	VN	VN	_	3	SS	_	_
 6	över	_	PR	PR	_	5	ET	_	_
 7	gatuadresser	_	NN	NN	_	6	PA	_	_
-8	där	_	AB	AB	_	10	CA	_	_
+8	där	_	AB	AB	_	14	TA	_	_
 9	alla	_	PO	PO	_	10	DT	_	_
-10	gator	_	NN	NN	_	5	CC	_	_
+10	gator	_	NN	NN	_	14	SS	_	_
 11	,	_	IK	IK	_	12	IK	_	_
 12	vägar	_	NN	NN	_	10	CC	_	_
 13	etc	_	AB	AB	_	14	TA	_	_
@@ -4553,7 +4553,7 @@
 20	staden	_	NN	NN	_	22	DT	_	_
 21	gemensam	_	AJ	AJ	_	22	AT	_	_
 22	bokstavsordning	_	VN	VN	_	18	PA	_	_
-23	.	_	IP	IP	_	3	IP	_	_
+23	.	_	IP	IP	_	16	PA	_	_
 
 1	Genom	_	PR	PR	_	4	AA	_	_
 2	denna	_	PO	PO	_	3	DT	_	_
@@ -4562,7 +4562,7 @@
 5	man	_	PO	PO	_	4	SS	_	_
 6	veta	_	VV	VV	_	4	VG	_	_
 7	inte	_	AB	AB	_	6	PL	_	_
-8	endast	_	AB	AB	_	6	PL	_	_
+8	endast	_	AB	AB	_	6	TA	_	_
 9	de	_	PO	PO	_	11	DT	_	_
 10	rätta	_	AJ	AJ	_	11	AT	_	_
 11	postnumren	_	NN	NN	_	6	OO	_	_
@@ -4592,14 +4592,14 @@
 17	resp	_	++	++	_	18	++	_	_
 18	Göteborg	_	PN	PN	_	16	CC	_	_
 19	,	_	IK	IK	_	2	IK	_	_
-20	men	_	++	++	_	21	++	_	_
-21	är	_	AV	AV	_	2	MS	_	_
+20	men	_	++	++	_	0		_	_
+21	är	_	AV	AV	_	0		_	_
 22	tveksam	_	AJ	AJ	_	21	SP	_	_
 23	om	_	UK	UK	_	27	UK	_	_
 24	den	_	PO	PO	_	26	DT	_	_
 25	postala	_	AJ	AJ	_	26	AT	_	_
 26	adressorten	_	NN	NN	_	27	SS	_	_
-27	är	_	AV	AV	_	2	MS	_	_
+27	är	_	AV	AV	_	21	SS	_	_
 28	t	_	AB	AB	_	27	AA	_	_
 29	ex	_	ID	ID	_	28	HD	_	_
 30	Stockholm	_	PN	PN	_	27	SP	_	_
@@ -4612,7 +4612,7 @@
 37	eller	_	++	++	_	38	++	_	_
 38	Västra	_	PN	PN	_	36	CC	_	_
 39	Frölunda	_	ID	ID	_	38	HD	_	_
-40	.	_	IP	IP	_	2	IP	_	_
+40	.	_	IP	IP	_	21	IP	_	_
 
 1	Bokstavsbeteckningarna	_	VN	VN	_	10	SS	_	_
 2	för	_	PR	PR	_	1	ET	_	_
@@ -4620,7 +4620,7 @@
 4	i	_	PR	PR	_	3	ET	_	_
 5	Stockholm	_	PN	PN	_	4	PA	_	_
 6	,	_	IK	IK	_	1	IK	_	_
-7	Göteborg	_	PN	PN	_	1	ET	_	_
+7	Göteborg	_	PN	PN	_	1	AN	_	_
 8	och	_	++	++	_	9	++	_	_
 9	Malmö	_	PN	PN	_	7	CC	_	_
 10	(	_	IR	IR	_	0	ROOT	_	_
@@ -4637,10 +4637,10 @@
 21	behöver	_	VV	VV	_	18	ET	_	_
 22	inte	_	AB	AB	_	21	NA	_	_
 23	användas	_	VV	VV	_	21	VG	_	_
-24	,	_	IK	IK	_	23	IK	_	_
+24	,	_	IK	IK	_	18	IK	_	_
 25	när	_	AB	AB	_	27	TA	_	_
 26	man	_	PO	PO	_	27	SS	_	_
-27	sätter	_	VV	VV	_	23	OO	_	_
+27	sätter	_	VV	VV	_	18	ET	_	_
 28	ut	_	AB	AB	_	27	PL	_	_
 29	postnumret	_	NN	NN	_	27	OO	_	_
 30	framför	_	PR	PR	_	27	OA	_	_
@@ -4671,7 +4671,7 @@
 14	man	_	PO	PO	_	13	SS	_	_
 15	ange	_	VV	VV	_	13	VG	_	_
 16	postnumret	_	NN	NN	_	15	OO	_	_
-17	på	_	PR	PR	_	16	ET	_	_
+17	på	_	PR	PR	_	15	OA	_	_
 18	det	_	PO	PO	_	19	DT	_	_
 19	sätt	_	NN	NN	_	17	PA	_	_
 20	som	_	PO	PO	_	21	SS	_	_
@@ -4710,7 +4710,7 @@
 7	länder	_	NN	NN	_	4	PA	_	_
 8	,	_	IK	IK	_	7	IK	_	_
 9	som	_	PO	PO	_	11	SS	_	_
-10	hittills	_	AB	AB	_	11	AA	_	_
+10	hittills	_	AB	AB	_	11	TA	_	_
 11	har	_	HV	HV	_	7	ET	_	_
 12	börjat	_	VV	VV	_	11	VG	_	_
 13	med	_	PR	PR	_	12	OA	_	_
@@ -4722,12 +4722,12 @@
 19	ha	_	HV	HV	_	16	VG	_	_
 20	numret	_	NN	NN	_	19	OO	_	_
 21	skrivet	_	TP	TP	_	0	ROOT	_	_
-22	till	_	AB	AB	_	24	CA	_	_
+22	till	_	AB	AB	_	21	AA	_	_
 23	vänster	_	ID	ID	_	22	HD	_	_
-24	om	_	PR	PR	_	0		_	_
+24	om	_	PR	PR	_	21	OA	_	_
 25	adressortens	_	NN	NN	_	26	DT	_	_
 26	namn	_	NN	NN	_	24	PA	_	_
-27	.	_	IP	IP	_	24	IP	_	_
+27	.	_	IP	IP	_	21	IP	_	_
 
 1	När	_	AB	AB	_	3	TA	_	_
 2	man	_	PO	PO	_	3	SS	_	_
@@ -4768,18 +4768,18 @@
 5	skriver	_	VV	VV	_	0		_	_
 6	till	_	PR	PR	_	5	RA	_	_
 7	Sverige	_	PN	PN	_	6	PA	_	_
-8	bör	_	BV	BV	_	5	MS	_	_
+8	bör	_	BV	BV	_	0		_	_
 9	han	_	PO	PO	_	10	SS	_	_
-10	skriva	_	VV	VV	_	5	MS	_	_
+10	skriva	_	VV	VV	_	8	ET	_	_
 11	'	_	IC	IC	_	12	IC	_	_
-12	S	_	MN	MN	_	5	OO	_	_
+12	S	_	MN	MN	_	10	OO	_	_
 13	-	_	ID	ID	_	12	HD	_	_
 14	'	_	IC	IC	_	13	JC	_	_
 15	framför	_	PR	PR	_	13	ET	_	_
 16	det	_	PO	PO	_	18	DT	_	_
 17	svenska	_	AJ	AJ	_	18	AT	_	_
 18	postnumret	_	NN	NN	_	15	PA	_	_
-19	.	_	IP	IP	_	5	IP	_	_
+19	.	_	IP	IP	_	8	IP	_	_
 
 1	På	_	PR	PR	_	4	RA	_	_
 2	detta	_	PO	PO	_	3	DT	_	_
@@ -4805,17 +4805,17 @@
 22	.	_	IP	IP	_	4	IP	_	_
 
 1	De	_	PO	PO	_	2	DT	_	_
-2	nationalitetsbeteckninga	_	VN	VN	_	5	SS	_	_
+2	nationalitetsbeteckninga	_	VN	VN	_	12	SS	_	_
 3	som	_	PO	PO	_	4	SS	_	_
 4	bör	_	BV	BV	_	2	ET	_	_
-5	användas	_	VV	VV	_	0	ROOT	_	_
-6	i	_	PR	PR	_	5	AA	_	_
+5	användas	_	VV	VV	_	4	VG	_	_
+6	i	_	PR	PR	_	5	RA	_	_
 7	förbindelse	_	ID	ID	_	6	HD	_	_
 8	med	_	ID	ID	_	6	HD	_	_
 9	postnummer	_	NN	NN	_	6	PA	_	_
 10	till	_	PR	PR	_	9	ET	_	_
 11	utlandet	_	NN	NN	_	10	PA	_	_
-12	är	_	AV	AV	_	5	MS	_	_
+12	är	_	AV	AV	_	0	ROOT	_	_
 13	följande	_	PO	PO	_	0		_	_
 14	:	_	IQ	IQ	_	0		_	_
 15	Belgien	_	PN	PN	_	0		_	_
@@ -4839,18 +4839,18 @@
 33	Österrike	_	PN	PN	_	0		_	_
 34	A	_	MN	MN	_	0		_	_
 
-1	Eftersom	_	UK	UK	_	8	UK	_	_
-2	bilarna	_	NN	NN	_	8	SS	_	_
+1	Eftersom	_	UK	UK	_	0		_	_
+2	bilarna	_	NN	NN	_	0		_	_
 3	i	_	PR	PR	_	2	ET	_	_
-4	både	_	AB	AB	_	5	VA	_	_
-5	Väst-	_	PN	PN	_	3	PA	_	_
+4	både	_	AB	AB	_	8	VA	_	_
+5	Väst-	_	PN	PN	_	8	SS	_	_
 6	och	_	++	++	_	7	++	_	_
 7	Östtyskland	_	PN	PN	_	5	CC	_	_
 8	har	_	HV	HV	_	0		_	_
-9	bokstavsbeteckningen	_	VN	VN	_	8	OO	_	_
-10	D	_	MN	MN	_	8	TA	_	_
+9	bokstavsbeteckningen	_	VN	VN	_	0		_	_
+10	D	_	MN	MN	_	12	AA	_	_
 11	,	_	IK	IK	_	12	IK	_	_
-12	går	_	VV	VV	_	8	VG	_	_
+12	går	_	VV	VV	_	9	ET	_	_
 13	det	_	PO	PO	_	12	SS	_	_
 14	inte	_	AB	AB	_	12	NA	_	_
 15	att	_	IM	IM	_	16	IM	_	_
@@ -4864,7 +4864,7 @@
 23	postnummer	_	NN	NN	_	20	PA	_	_
 24	till	_	PR	PR	_	23	ET	_	_
 25	Östtyskland	_	PN	PN	_	24	PA	_	_
-26	.	_	IP	IP	_	8	IP	_	_
+26	.	_	IP	IP	_	9	ET	_	_
 
 1	När	_	AB	AB	_	3	TA	_	_
 2	man	_	PO	PO	_	3	SS	_	_
@@ -4872,21 +4872,21 @@
 4	dit	_	AB	AB	_	3	PL	_	_
 5	bör	_	BV	BV	_	0		_	_
 6	man	_	PO	PO	_	0		_	_
-7	därför	_	AB	AB	_	0		_	_
+7	därför	_	AB	AB	_	8	CA	_	_
 8	,	_	IK	IK	_	0		_	_
-9	för	_	PR	PR	_	14	RA	_	_
+9	för	_	PR	PR	_	8	AA	_	_
 10	att	_	IM	IM	_	11	IM	_	_
 11	undvika	_	VV	VV	_	9	PA	_	_
 12	förväxling	_	VN	VN	_	11	OO	_	_
 13	,	_	IK	IK	_	14	IK	_	_
-14	sätta	_	VV	VV	_	0		_	_
+14	sätta	_	VV	VV	_	8	CC	_	_
 15	'	_	IC	IC	_	16	IC	_	_
-16	Dx	_	MN	MN	_	0		_	_
+16	Dx	_	MN	MN	_	14	OO	_	_
 17	-	_	ID	ID	_	16	HD	_	_
 18	'	_	IC	IC	_	17	JC	_	_
 19	framför	_	PR	PR	_	17	ET	_	_
 20	postnumret	_	NN	NN	_	19	PA	_	_
-21	.	_	IP	IP	_	16	IP	_	_
+21	.	_	IP	IP	_	8	IP	_	_
 
 1	Postnummer	_	NN	NN	_	0		_	_
 2	och	_	++	++	_	3	++	_	_
@@ -4932,14 +4932,14 @@
 12	häftet	_	NN	NN	_	14	DT	_	_
 13	'	_	IC	IC	_	14	IC	_	_
 14	Masskorsband	_	MN	MN	_	11	PA	_	_
-15	'	_	IC	IC	_	0		_	_
+15	'	_	IC	IC	_	5	TA	_	_
 16	,	_	IK	IK	_	15	IK	_	_
 17	som	_	PO	PO	_	18	SS	_	_
 18	kan	_	QV	QV	_	15	ET	_	_
 19	erhållas	_	VV	VV	_	18	VG	_	_
 20	på	_	PR	PR	_	19	OA	_	_
 21	postanstalterna	_	NN	NN	_	20	PA	_	_
-22	.	_	IP	IP	_	15	IP	_	_
+22	.	_	IP	IP	_	5	IP	_	_
 
 1	Översättning	_	VN	VN	_	0		_	_
 2	från	_	PR	PR	_	1	ET	_	_
@@ -4954,15 +4954,15 @@
 3	också	_	AB	AB	_	2	+A	_	_
 4	en	_	EN	EN	_	5	DT	_	_
 5	förteckning	_	VN	VN	_	2	OO	_	_
-6	över	_	PR	PR	_	5	ET	_	_
+6	över	_	PR	PR	_	2	OA	_	_
 7	samtliga	_	PO	PO	_	8	DT	_	_
 8	postnummer	_	NN	NN	_	6	PA	_	_
 9	i	_	PR	PR	_	8	ET	_	_
 10	nummerföljd	_	NN	NN	_	9	PA	_	_
-11	,	_	IK	IK	_	5	IK	_	_
-12	där	_	AB	AB	_	14	TA	_	_
+11	,	_	IK	IK	_	2	IK	_	_
+12	där	_	AB	AB	_	14	RA	_	_
 13	man	_	PO	PO	_	14	SS	_	_
-14	kan	_	QV	QV	_	5	ET	_	_
+14	kan	_	QV	QV	_	2	MS	_	_
 15	ta	_	VV	VV	_	14	VG	_	_
 16	reda	_	NN	NN	_	15	OO	_	_
 17	på	_	PR	PR	_	15	OA	_	_
@@ -4972,11 +4972,11 @@
 21	varje	_	PO	PO	_	23	DT	_	_
 22	särskilt	_	AJ	AJ	_	23	AT	_	_
 23	nummer	_	NN	NN	_	15	OO	_	_
-24	hänför	_	VV	VV	_	2	MS	_	_
+24	hänför	_	VV	VV	_	2	AA	_	_
 25	sig	_	PO	PO	_	24	OO	_	_
 26	och	_	++	++	_	28	++	_	_
 27	dessutom	_	AB	AB	_	28	AA	_	_
-28	få	_	FV	FV	_	24	OO	_	_
+28	få	_	FV	FV	_	2	MS	_	_
 29	upplysning	_	VN	VN	_	28	OO	_	_
 30	om	_	PR	PR	_	28	OA	_	_
 31	i	_	PR	PR	_	38	AA	_	_
@@ -5036,10 +5036,10 @@
 10	paket	_	NN	NN	_	8	OO	_	_
 11	.	_	IP	IP	_	5	IP	_	_
 
-1	Det	_	PO	PO	_	2	SS	_	_
+1	Det	_	PO	PO	_	2	FS	_	_
 2	finns	_	VV	VV	_	0	ROOT	_	_
 3	olika	_	AJ	AJ	_	4	AT	_	_
-4	sätt	_	NN	NN	_	2	OO	_	_
+4	sätt	_	NN	NN	_	2	ES	_	_
 5	att	_	IM	IM	_	6	IM	_	_
 6	skicka	_	VV	VV	_	4	ET	_	_
 7	postpaket	_	NN	NN	_	6	OO	_	_
@@ -5053,7 +5053,7 @@
 4	den	_	PO	PO	_	6	DT	_	_
 5	1	_	RO	RO	_	6	DT	_	_
 6	januari	_	NN	NN	_	8	SS	_	_
-7	1971	_	RO	RO	_	6	ET	_	_
+7	1971	_	RO	RO	_	8	TA	_	_
 8	kan	_	QV	QV	_	0	ROOT	_	_
 9	man	_	PO	PO	_	8	SS	_	_
 10	välja	_	VV	VV	_	8	VG	_	_
@@ -5065,7 +5065,7 @@
 16	befordran	_	VN	VN	_	0		_	_
 17	2	_	PU	PU	_	19	DT	_	_
 18	Vanlig	_	AJ	AJ	_	19	AT	_	_
-19	befordran	_	VN	VN	_	16	CC	_	_
+19	befordran	_	VN	VN	_	16	ET	_	_
 20	+	_	PR	PR	_	19	ET	_	_
 21	utkörning	_	VN	VN	_	20	PA	_	_
 22	3	_	PU	PU	_	0		_	_
@@ -5080,7 +5080,7 @@
 3	vanlig	_	AJ	AJ	_	4	AT	_	_
 4	befordran	_	VN	VN	_	2	PA	_	_
 5	transporteras	_	VV	VV	_	0	ROOT	_	_
-6	med	_	PR	PR	_	5	AA	_	_
+6	med	_	PR	PR	_	5	OA	_	_
 7	postlägenheter	_	NN	NN	_	6	PA	_	_
 8	som	_	PO	PO	_	9	SS	_	_
 9	är	_	AV	AV	_	7	ET	_	_
@@ -5097,7 +5097,7 @@
 2	behandlas	_	VV	VV	_	0	ROOT	_	_
 3	därför	_	AB	AB	_	2	MA	_	_
 4	inte	_	AB	AB	_	2	NA	_	_
-5	lika	_	AB	AB	_	2	TA	_	_
+5	lika	_	AB	AB	_	6	AA	_	_
 6	snabbt	_	AJ	AJ	_	2	AA	_	_
 7	som	_	UK	UK	_	8	UK	_	_
 8	brev	_	NN	NN	_	2	OO	_	_
@@ -5135,17 +5135,17 @@
 11	ett	_	EN	EN	_	12	DT	_	_
 12	paket	_	NN	NN	_	10	OO	_	_
 13	utkört	_	TP	TP	_	5	VG	_	_
-14	till	_	PR	PR	_	5	AA	_	_
+14	till	_	PR	PR	_	5	RA	_	_
 15	adressatens	_	NN	NN	_	16	DT	_	_
 16	bostad	_	NN	NN	_	14	PA	_	_
 17	,	_	IK	IK	_	18	IK	_	_
 18	kontor	_	NN	NN	_	16	CC	_	_
-19	etc	_	AB	AB	_	5	TA	_	_
+19	etc	_	AB	AB	_	5	AA	_	_
 20	på	_	PR	PR	_	5	AA	_	_
 21	orter	_	NN	NN	_	20	PA	_	_
 22	,	_	IK	IK	_	24	IK	_	_
 23	ca	_	AB	AB	_	24	AA	_	_
-24	600	_	RO	RO	_	33	TA	_	_
+24	600	_	RO	RO	_	0		_	_
 25	till	_	PR	PR	_	24	ET	_	_
 26	antalet	_	NN	NN	_	25	PA	_	_
 27	,	_	IK	IK	_	24	IK	_	_
@@ -5154,28 +5154,28 @@
 30	och	_	++	++	_	31	++	_	_
 31	expressutdelning	_	VN	VN	_	29	CC	_	_
 32	finns	_	VV	VV	_	24	MS	_	_
-33	anordnad	_	TP	TP	_	0		_	_
-34	.	_	IP	IP	_	33	IP	_	_
+33	anordnad	_	TP	TP	_	32	OO	_	_
+34	.	_	IP	IP	_	24	IP	_	_
 
 1	Vanlig	_	AJ	AJ	_	2	AT	_	_
 2	befordran	_	VN	VN	_	0	ROOT	_	_
-3	-	_	IT	IT	_	7	SS	_	_
+3	-	_	IT	IT	_	0		_	_
 4	när	_	AB	AB	_	7	TA	_	_
 5	sändningen	_	VN	VN	_	7	SS	_	_
 6	inte	_	AB	AB	_	7	NA	_	_
-7	är	_	AV	AV	_	0	ROOT	_	_
-8	mycket	_	AB	AB	_	7	AA	_	_
+7	är	_	AV	AV	_	0		_	_
+8	mycket	_	AB	AB	_	9	AA	_	_
 9	brådskande	_	AJ	AJ	_	7	SP	_	_
 10	och	_	++	++	_	11	++	_	_
 11	varan	_	NN	NN	_	9	CC	_	_
-12	inte	_	AB	AB	_	7	AA	_	_
-13	tar	_	VV	VV	_	7	MS	_	_
+12	inte	_	AB	AB	_	7	TA	_	_
+13	tar	_	VV	VV	_	0		_	_
 14	skada	_	NN	NN	_	13	OO	_	_
 15	av	_	PR	PR	_	14	ET	_	_
 16	några	_	PO	PO	_	17	DT	_	_
 17	dagars	_	NN	NN	_	15	PA	_	_
 18	transport	_	NN	NN	_	13	OO	_	_
-19	.	_	IP	IP	_	7	IP	_	_
+19	.	_	IP	IP	_	13	IP	_	_
 
 1	Inlämning	_	VN	VN	_	0		_	_
 
@@ -5218,7 +5218,7 @@
 6	paketet	_	NN	NN	_	7	SS	_	_
 7	finns	_	VV	VV	_	4	OO	_	_
 8	att	_	IM	IM	_	9	IM	_	_
-9	hämta	_	VV	VV	_	7	+F	_	_
+9	hämta	_	VV	VV	_	7	OO	_	_
 10	på	_	PR	PR	_	9	OA	_	_
 11	adressatens	_	NN	NN	_	12	DT	_	_
 12	postanstalt	_	NN	NN	_	10	PA	_	_
@@ -5230,7 +5230,7 @@
 18	på	_	PR	PR	_	14	OA	_	_
 19	tredje	_	RO	RO	_	20	DT	_	_
 20	vardagen	_	NN	NN	_	18	PA	_	_
-21	efter	_	PR	PR	_	14	AA	_	_
+21	efter	_	PR	PR	_	20	ET	_	_
 22	inlämningsdagen	_	NN	NN	_	21	PA	_	_
 23	.	_	IP	IP	_	1	IP	_	_
 
@@ -5243,31 +5243,31 @@
 7	så	_	AB	AB	_	8	AA	_	_
 8	lång	_	AJ	AJ	_	9	AT	_	_
 9	tid	_	NN	NN	_	5	OO	_	_
-10	-	_	IT	IT	_	12	DT	_	_
+10	-	_	IT	IT	_	5	TA	_	_
 11	vanliga	_	AJ	AJ	_	12	AT	_	_
-12	paket	_	NN	NN	_	13	SS	_	_
-13	transporteras	_	VV	VV	_	0	ROOT	_	_
-14	inte	_	AB	AB	_	13	NA	_	_
-15	med	_	PR	PR	_	13	AA	_	_
+12	paket	_	NN	NN	_	5	OO	_	_
+13	transporteras	_	VV	VV	_	5	MS	_	_
+14	inte	_	AB	AB	_	13	PL	_	_
+15	med	_	PR	PR	_	13	OA	_	_
 16	flyg	_	NN	NN	_	15	PA	_	_
-17	-	_	IT	IT	_	13	TA	_	_
+17	-	_	IT	IT	_	20	SS	_	_
 18	att	_	UK	UK	_	20	UK	_	_
 19	adresskortet	_	NN	NN	_	20	SS	_	_
-20	kan	_	QV	QV	_	13	OO	_	_
+20	kan	_	QV	QV	_	0		_	_
 21	delas	_	VV	VV	_	20	VG	_	_
 22	ut	_	AB	AB	_	21	PL	_	_
 23	först	_	AB	AB	_	21	AA	_	_
 24	på	_	PR	PR	_	21	OA	_	_
 25	fjärde	_	RO	RO	_	0		_	_
 26	eller	_	++	++	_	29	++	_	_
-27	i	_	AB	AB	_	29	CA	_	_
+27	i	_	AB	AB	_	29	AA	_	_
 28	undantagsfall	_	ID	ID	_	27	HD	_	_
-29	på	_	PR	PR	_	32	AA	_	_
+29	på	_	PR	PR	_	25	CC	_	_
 30	femte	_	RO	RO	_	31	DT	_	_
 31	vardagen	_	NN	NN	_	29	PA	_	_
-32	efter	_	PR	PR	_	0		_	_
+32	efter	_	PR	PR	_	31	ET	_	_
 33	inlämningsdagen	_	NN	NN	_	32	PA	_	_
-34	.	_	IP	IP	_	32	IP	_	_
+34	.	_	IP	IP	_	25	IP	_	_
 
 1	Vanlig	_	AJ	AJ	_	2	AT	_	_
 2	befordran	_	VN	VN	_	0	ROOT	_	_
@@ -5279,10 +5279,10 @@
 8	vill	_	WV	WV	_	0		_	_
 9	befria	_	VV	VV	_	8	VG	_	_
 10	adressaten	_	NN	NN	_	9	OO	_	_
-11	från	_	PR	PR	_	10	ET	_	_
+11	från	_	PR	PR	_	9	OA	_	_
 12	besväret	_	NN	NN	_	11	PA	_	_
 13	att	_	IM	IM	_	14	IM	_	_
-14	hämta	_	VV	VV	_	10	ET	_	_
+14	hämta	_	VV	VV	_	8	MS	_	_
 15	paketet	_	NN	NN	_	14	OO	_	_
 16	på	_	PR	PR	_	14	OA	_	_
 17	posten	_	NN	NN	_	16	PA	_	_
@@ -5302,7 +5302,7 @@
 10	'	_	IC	IC	_	4	VG	_	_
 11	när	_	AB	AB	_	13	TA	_	_
 12	de	_	PO	PO	_	13	SS	_	_
-13	lämnas	_	VV	VV	_	4	VG	_	_
+13	lämnas	_	VV	VV	_	4	MS	_	_
 14	in	_	AB	AB	_	13	PL	_	_
 15	på	_	PR	PR	_	13	OA	_	_
 16	posten	_	NN	NN	_	15	PA	_	_
@@ -5322,11 +5322,11 @@
 10	,	_	IK	IK	_	11	IK	_	_
 11	kontor	_	NN	NN	_	9	CC	_	_
 12	etc	_	AB	AB	_	13	AA	_	_
-13	senast	_	AJ	AJ	_	5	AA	_	_
+13	senast	_	AJ	AJ	_	5	MS	_	_
 14	på	_	PR	PR	_	5	OA	_	_
 15	tredje	_	RO	RO	_	16	DT	_	_
 16	vardagen	_	NN	NN	_	14	PA	_	_
-17	efter	_	PR	PR	_	5	AA	_	_
+17	efter	_	PR	PR	_	16	ET	_	_
 18	inlämningdagen	_	NN	NN	_	17	PA	_	_
 19	.	_	IP	IP	_	5	IP	_	_
 
@@ -5339,17 +5339,17 @@
 7	så	_	AB	AB	_	8	AA	_	_
 8	lång	_	AJ	AJ	_	9	AT	_	_
 9	tid	_	NN	NN	_	5	OO	_	_
-10	-	_	IT	IT	_	12	DT	_	_
+10	-	_	IT	IT	_	5	TA	_	_
 11	vanliga	_	AJ	AJ	_	12	AT	_	_
-12	paket	_	NN	NN	_	13	SS	_	_
-13	transporteras	_	VV	VV	_	0	ROOT	_	_
-14	inte	_	AB	AB	_	13	NA	_	_
-15	med	_	PR	PR	_	13	AA	_	_
+12	paket	_	NN	NN	_	5	OO	_	_
+13	transporteras	_	VV	VV	_	5	MS	_	_
+14	inte	_	AB	AB	_	13	PL	_	_
+15	med	_	PR	PR	_	13	OA	_	_
 16	flyg	_	NN	NN	_	15	PA	_	_
-17	-	_	IT	IT	_	13	TA	_	_
+17	-	_	IT	IT	_	20	SS	_	_
 18	att	_	UK	UK	_	20	UK	_	_
 19	paketen	_	NN	NN	_	20	SS	_	_
-20	kan	_	QV	QV	_	13	OO	_	_
+20	kan	_	QV	QV	_	0		_	_
 21	köras	_	VV	VV	_	20	VG	_	_
 22	ut	_	AB	AB	_	21	PL	_	_
 23	till	_	PR	PR	_	21	OA	_	_
@@ -5358,14 +5358,14 @@
 26	på	_	PR	PR	_	21	AA	_	_
 27	fjärde	_	RO	RO	_	0		_	_
 28	eller	_	++	++	_	31	++	_	_
-29	i	_	AB	AB	_	31	CA	_	_
+29	i	_	AB	AB	_	31	AA	_	_
 30	undantagsfall	_	ID	ID	_	29	HD	_	_
-31	på	_	PR	PR	_	34	AA	_	_
+31	på	_	PR	PR	_	27	CC	_	_
 32	femte	_	RO	RO	_	33	DT	_	_
 33	vardagen	_	NN	NN	_	31	PA	_	_
-34	efter	_	PR	PR	_	0		_	_
+34	efter	_	PR	PR	_	33	ET	_	_
 35	inlämningsdagen	_	NN	NN	_	34	PA	_	_
-36	.	_	IP	IP	_	34	IP	_	_
+36	.	_	IP	IP	_	27	IP	_	_
 
 1	Utkörning	_	VN	VN	_	2	SS	_	_
 2	förekommer	_	VV	VV	_	0	ROOT	_	_
@@ -5409,9 +5409,9 @@
 4	orter	_	NN	NN	_	2	PA	_	_
 5	som	_	XX	XX	_	6	SS	_	_
 6	har	_	HV	HV	_	4	ET	_	_
-7	utkörning	_	VN	VN	_	6	OO	_	_
-8	finner	_	VV	VV	_	6	VG	_	_
-9	Ni	_	PO	PO	_	8	SS	_	_
+7	utkörning	_	VN	VN	_	8	SS	_	_
+8	finner	_	VV	VV	_	6	ET	_	_
+9	Ni	_	PO	PO	_	8	OO	_	_
 10	också	_	AB	AB	_	8	PL	_	_
 11	i	_	PR	PR	_	8	RA	_	_
 12	'	_	IC	IC	_	13	IC	_	_
@@ -5437,14 +5437,14 @@
 12	till	_	PR	PR	_	11	ET	_	_
 13	postgirokonto	_	NN	NN	_	14	DT	_	_
 14	nr	_	NN	NN	_	12	PA	_	_
-15	3	_	RO	RO	_	14	ET	_	_
+15	3	_	RO	RO	_	0		_	_
 16	-	_	ID	ID	_	15	HD	_	_
 17	4	_	ID	ID	_	15	HD	_	_
 18	,	_	IK	IK	_	19	IK	_	_
 19	Poststyrelsen	_	PN	PN	_	15	CC	_	_
 20	,	_	IK	IK	_	21	IK	_	_
 21	Huvudkassan	_	PN	PN	_	19	CC	_	_
-22	.	_	IP	IP	_	2	IP	_	_
+22	.	_	IP	IP	_	15	IP	_	_
 
 1	Ilbefordran	_	VN	VN	_	2	SS	_	_
 2	-	_	IT	IT	_	0	ROOT	_	_
@@ -5476,7 +5476,7 @@
 8	'	_	IC	IC	_	9	IC	_	_
 9	Ilpaket	_	MN	MN	_	7	PA	_	_
 10	'	_	IC	IC	_	5	JC	_	_
-11	vid	_	PR	PR	_	5	OA	_	_
+11	vid	_	PR	PR	_	5	SP	_	_
 12	inlämningen	_	VN	VN	_	11	PA	_	_
 13	.	_	IP	IP	_	4	IP	_	_
 
@@ -5495,13 +5495,13 @@
 
 1	Adresskortet	_	NN	NN	_	2	SS	_	_
 2	delas	_	VV	VV	_	0	ROOT	_	_
-3	ut	_	AB	AB	_	2	AA	_	_
-4	till	_	PR	PR	_	2	RA	_	_
+3	ut	_	AB	AB	_	2	MA	_	_
+4	till	_	PR	PR	_	2	OA	_	_
 5	adressaten	_	NN	NN	_	4	PA	_	_
-6	på	_	PR	PR	_	2	OA	_	_
+6	på	_	PR	PR	_	5	ET	_	_
 7	första	_	PO	PO	_	8	DT	_	_
 8	vardagen	_	NN	NN	_	6	PA	_	_
-9	efter	_	PR	PR	_	2	AA	_	_
+9	efter	_	PR	PR	_	8	ET	_	_
 10	inlämningsdagen	_	NN	NN	_	9	PA	_	_
 11	.	_	IP	IP	_	2	IP	_	_
 
@@ -5513,7 +5513,7 @@
 6	orter	_	NN	NN	_	4	PA	_	_
 7	räcker	_	VV	VV	_	0	ROOT	_	_
 8	emellertid	_	AB	AB	_	7	AA	_	_
-9	inte	_	AB	AB	_	7	NA	_	_
+9	inte	_	AB	AB	_	10	CA	_	_
 10	nattimmarna	_	NN	NN	_	7	SS	_	_
 11	till	_	PR	PR	_	7	OA	_	_
 12	för	_	UK	UK	_	17	UK	_	_
@@ -5523,7 +5523,7 @@
 16	flyg	_	NN	NN	_	14	CC	_	_
 17	skall	_	SV	SV	_	11	PA	_	_
 18	hinna	_	VV	VV	_	17	VG	_	_
-19	transportera	_	VV	VV	_	17	VG	_	_
+19	transportera	_	VV	VV	_	7	MS	_	_
 20	fram	_	AB	AB	_	19	PL	_	_
 21	ilpaket	_	NN	NN	_	19	OO	_	_
 22	till	_	PR	PR	_	19	OA	_	_
@@ -5562,9 +5562,9 @@
 2	+	_	PR	PR	_	1	ET	_	_
 3	expressutdelning	_	VN	VN	_	2	PA	_	_
 4	-	_	IT	IT	_	0	ROOT	_	_
-5	när	_	AB	AB	_	7	TA	_	_
+5	när	_	AB	AB	_	4	MA	_	_
 6	Ni	_	PO	PO	_	7	SS	_	_
-7	önskar	_	VV	VV	_	0		_	_
+7	önskar	_	VV	VV	_	4	MS	_	_
 8	att	_	UK	UK	_	11	UK	_	_
 9	sändningen	_	VN	VN	_	11	SS	_	_
 10	dels	_	AB	AB	_	11	AA	_	_
@@ -5576,16 +5576,16 @@
 16	möjligt	_	AJ	AJ	_	11	OO	_	_
 17	,	_	IK	IK	_	19	IK	_	_
 18	dels	_	AB	AB	_	19	TA	_	_
-19	delas	_	VV	VV	_	7	MS	_	_
+19	delas	_	VV	VV	_	4	MS	_	_
 20	ut	_	AB	AB	_	19	PL	_	_
-21	till	_	PR	PR	_	19	RA	_	_
+21	till	_	PR	PR	_	19	OA	_	_
 22	adressaten	_	NN	NN	_	21	PA	_	_
 23	med	_	PR	PR	_	22	ET	_	_
 24	särskilt	_	AJ	AJ	_	25	AT	_	_
 25	bud	_	NN	NN	_	23	PA	_	_
-26	snarast	_	AJ	AJ	_	27	AA	_	_
-27	möjligt	_	AJ	AJ	_	19	OO	_	_
-28	.	_	IP	IP	_	7	IP	_	_
+26	snarast	_	AJ	AJ	_	27	AT	_	_
+27	möjligt	_	AJ	AJ	_	0	OO	_	_
+28	.	_	IP	IP	_	27	IP	_	_
 
 1	Inlämning	_	VN	VN	_	0		_	_
 
@@ -5602,8 +5602,8 @@
 11	och	_	++	++	_	13	++	_	_
 12	'	_	IC	IC	_	13	IC	_	_
 13	Express	_	MN	MN	_	9	CC	_	_
-14	'	_	IC	IC	_	13	JC	_	_
-15	vid	_	PR	PR	_	5	AA	_	_
+14	'	_	IC	IC	_	5	JC	_	_
+15	vid	_	PR	PR	_	5	SP	_	_
 16	inlämningen	_	VN	VN	_	15	PA	_	_
 17	.	_	IP	IP	_	4	IP	_	_
 
@@ -5619,18 +5619,18 @@
 8	når	_	VV	VV	_	2	MS	_	_
 9	i	_	AB	AB	_	8	PL	_	_
 10	regel	_	ID	ID	_	9	HD	_	_
-11	fram	_	AB	AB	_	8	PL	_	_
+11	fram	_	AB	AB	_	8	AA	_	_
 12	till	_	PR	PR	_	8	OA	_	_
 13	adressorten	_	NN	NN	_	12	PA	_	_
-14	på	_	PR	PR	_	8	OA	_	_
+14	på	_	PR	PR	_	13	ET	_	_
 15	första	_	PO	PO	_	16	DT	_	_
 16	vardagen	_	NN	NN	_	14	PA	_	_
-17	efter	_	PR	PR	_	8	OA	_	_
+17	efter	_	PR	PR	_	16	ET	_	_
 18	inlämningsdagen	_	NN	NN	_	17	PA	_	_
 19	.	_	IP	IP	_	2	IP	_	_
 
-1	Snarast	_	AJ	AJ	_	10	SS	_	_
-2	möjligt	_	AJ	AJ	_	10	SS	_	_
+1	Snarast	_	AJ	AJ	_	16	AA	_	_
+2	möjligt	_	AJ	AJ	_	16	AA	_	_
 3	efter	_	UK	UK	_	10	UK	_	_
 4	det	_	ID	ID	_	3	HD	_	_
 5	att	_	ID	ID	_	3	HD	_	_
@@ -5638,13 +5638,13 @@
 7	ilpaket	_	NN	NN	_	10	SS	_	_
 8	med	_	PR	PR	_	7	ET	_	_
 9	expressutdelning	_	VN	VN	_	8	PA	_	_
-10	har	_	HV	HV	_	0	ROOT	_	_
+10	har	_	HV	HV	_	16	AA	_	_
 11	kommit	_	VV	VV	_	10	VG	_	_
 12	fram	_	AB	AB	_	11	PL	_	_
 13	till	_	PR	PR	_	11	OA	_	_
 14	adressorten	_	NN	NN	_	13	PA	_	_
 15	,	_	IK	IK	_	16	IK	_	_
-16	delas	_	VV	VV	_	10	+F	_	_
+16	delas	_	VV	VV	_	0	ROOT	_	_
 17	det	_	PO	PO	_	16	SS	_	_
 18	ut	_	AB	AB	_	16	PL	_	_
 19	i	_	PR	PR	_	16	RA	_	_
@@ -5653,18 +5653,18 @@
 22	,	_	IK	IK	_	23	IK	_	_
 23	kontor	_	NN	NN	_	21	CC	_	_
 24	etc	_	AB	AB	_	16	TA	_	_
-25	.	_	IP	IP	_	10	IP	_	_
+25	.	_	IP	IP	_	16	IP	_	_
 
-1	På	_	PR	PR	_	5	AA	_	_
+1	På	_	PR	PR	_	5	TA	_	_
 2	sön-	_	NN	NN	_	1	PA	_	_
 3	och	_	++	++	_	4	++	_	_
 4	helgdagar	_	NN	NN	_	2	CC	_	_
 5	gäller	_	VV	VV	_	0	ROOT	_	_
-6	vissa	_	PO	PO	_	5	SS	_	_
-7	inskränkningar	_	VN	VN	_	5	OO	_	_
+6	vissa	_	PO	PO	_	7	DT	_	_
+7	inskränkningar	_	VN	VN	_	5	SS	_	_
 8	som	_	PO	PO	_	9	DT	_	_
-9	postanstalterna	_	NN	NN	_	5	OO	_	_
-10	kan	_	QV	QV	_	5	TA	_	_
+9	postanstalterna	_	NN	NN	_	10	SS	_	_
+10	kan	_	QV	QV	_	7	ET	_	_
 11	lämna	_	VV	VV	_	10	VG	_	_
 12	besked	_	NN	NN	_	11	OO	_	_
 13	om	_	PR	PR	_	11	OA	_	_
@@ -5703,9 +5703,9 @@
 4	orter	_	NN	NN	_	2	PA	_	_
 5	som	_	XX	XX	_	6	SS	_	_
 6	har	_	HV	HV	_	4	ET	_	_
-7	expressutdelning	_	VN	VN	_	6	OO	_	_
-8	finner	_	VV	VV	_	6	VG	_	_
-9	Ni	_	PO	PO	_	8	SS	_	_
+7	expressutdelning	_	VN	VN	_	8	SS	_	_
+8	finner	_	VV	VV	_	6	ET	_	_
+9	Ni	_	PO	PO	_	8	OO	_	_
 10	också	_	AB	AB	_	8	PL	_	_
 11	i	_	PR	PR	_	8	RA	_	_
 12	'	_	IC	IC	_	13	IC	_	_
@@ -5731,14 +5731,14 @@
 12	till	_	PR	PR	_	11	ET	_	_
 13	postgirokonto	_	NN	NN	_	14	DT	_	_
 14	nr	_	NN	NN	_	12	PA	_	_
-15	3	_	RO	RO	_	14	ET	_	_
+15	3	_	RO	RO	_	0		_	_
 16	-	_	ID	ID	_	15	HD	_	_
 17	4	_	ID	ID	_	15	HD	_	_
 18	,	_	IK	IK	_	19	IK	_	_
 19	Poststyrelsen	_	PN	PN	_	15	CC	_	_
 20	,	_	IK	IK	_	21	IK	_	_
 21	Huvudkassan	_	PN	PN	_	19	CC	_	_
-22	.	_	IP	IP	_	2	IP	_	_
+22	.	_	IP	IP	_	15	IP	_	_
 
 1	Rfsu-laboratoriet	_	NN	NN	_	2	SS	_	_
 2	informerar	_	VV	VV	_	0	ROOT	_	_
@@ -5752,7 +5752,7 @@
 7	är	_	AV	AV	_	0	ROOT	_	_
 8	som	_	AB	AB	_	7	AA	_	_
 9	regel	_	ID	ID	_	8	HD	_	_
-10	utebliven	_	TP	TP	_	7	SP	_	_
+10	utebliven	_	TP	TP	_	11	AT	_	_
 11	menstruation	_	VN	VN	_	7	SP	_	_
 12	.	_	IP	IP	_	7	IP	_	_
 
@@ -5764,7 +5764,7 @@
 6	andra	_	PO	PO	_	7	DT	_	_
 7	orsaker	_	NN	NN	_	5	PA	_	_
 8	,	_	IK	IK	_	2	IK	_	_
-9	varför	_	AB	AB	_	12	TA	_	_
+9	varför	_	AB	AB	_	12	AA	_	_
 10	det	_	PO	PO	_	12	SS	_	_
 11	inte	_	AB	AB	_	12	NA	_	_
 12	är	_	AV	AV	_	2	MS	_	_
@@ -5786,14 +5786,14 @@
 7	kan	_	QV	QV	_	5	+F	_	_
 8	för	_	PR	PR	_	5	OA	_	_
 9	kvinnan	_	NN	NN	_	8	PA	_	_
-10	vara	_	AV	AV	_	5	OO	_	_
+10	vara	_	AV	AV	_	5	AA	_	_
 11	svårtolkade	_	AJ	AJ	_	10	SP	_	_
 12	.	_	IP	IP	_	5	IP	_	_
 
 1	Hur	_	AB	AB	_	2	TA	_	_
 2	fastställes	_	VV	VV	_	0	ROOT	_	_
 3	graviditet	_	AN	AN	_	0		_	_
-4	?	_	I?	I?	_	3	ET	_	_
+4	?	_	I?	I?	_	0		_	_
 
 1	Några	_	PO	PO	_	2	DT	_	_
 2	veckor	_	NN	NN	_	6	SS	_	_
@@ -5819,7 +5819,7 @@
 9	av	_	PR	PR	_	6	OA	_	_
 10	ett	_	EN	EN	_	11	DT	_	_
 11	urinprov	_	NN	NN	_	9	PA	_	_
-12	.	_	IP	IP	_	5	ET	_	_
+12	.	_	IP	IP	_	5	IP	_	_
 
 1	Rfsu-laboratoriet	_	NN	NN	_	2	SS	_	_
 2	utför	_	VV	VV	_	0	ROOT	_	_
@@ -5841,11 +5841,11 @@
 12	tystnadsplikt	_	NN	NN	_	11	PA	_	_
 13	.	_	IP	IP	_	2	IP	_	_
 
-1	Varför	_	AB	AB	_	3	AA	_	_
-2	urinprov	_	NN	NN	_	3	SS	_	_
+1	Varför	_	AB	AB	_	0		_	_
+2	urinprov	_	NN	NN	_	0		_	_
 3	?	_	I?	I?	_	0		_	_
 
-1	Under	_	PR	PR	_	3	AA	_	_
+1	Under	_	PR	PR	_	3	TA	_	_
 2	graviditet	_	AN	AN	_	1	PA	_	_
 3	producerar	_	VV	VV	_	0	ROOT	_	_
 4	ägget	_	NN	NN	_	3	SS	_	_
@@ -5872,7 +5872,7 @@
 9	graviditet	_	AN	AN	_	8	PA	_	_
 10	.	_	IP	IP	_	3	IP	_	_
 
-1	Genom	_	PR	PR	_	8	AA	_	_
+1	Genom	_	PR	PR	_	8	TA	_	_
 2	att	_	IM	IM	_	3	IM	_	_
 3	påvisa	_	VV	VV	_	1	PA	_	_
 4	detta	_	PO	PO	_	5	DT	_	_
@@ -5894,7 +5894,7 @@
 8	immunologisk	_	AJ	AJ	_	9	AT	_	_
 9	metod	_	NN	NN	_	3	SS	_	_
 10	utarbetad	_	TP	TP	_	3	OO	_	_
-11	av	_	PR	PR	_	3	AA	_	_
+11	av	_	PR	PR	_	3	OA	_	_
 12	svenska	_	AJ	AJ	_	13	AT	_	_
 13	forskare	_	NN	NN	_	11	PA	_	_
 14	.	_	IP	IP	_	3	IP	_	_
@@ -5923,7 +5923,7 @@
 3	?	_	I?	I?	_	2	I?	_	_
 
 1	Det	_	PO	PO	_	0		_	_
-2	ovan	_	PO	PO	_	0		_	_
+2	ovan	_	PO	PO	_	21	SS	_	_
 3	nämnda	_	ID	ID	_	2	HD	_	_
 4	hormonet	_	NN	NN	_	5	SS	_	_
 5	uppträder	_	VV	VV	_	2	ET	_	_
@@ -5941,11 +5941,11 @@
 17	dag	_	NN	NN	_	15	PA	_	_
 18	den	_	PO	PO	_	20	DT	_	_
 19	uteblivna	_	TP	TP	_	20	AT	_	_
-20	menstruationen	_	VN	VN	_	21	SS	_	_
-21	skulle	_	SV	SV	_	17	ET	_	_
+20	menstruationen	_	VN	VN	_	5	OO	_	_
+21	skulle	_	SV	SV	_	1	ET	_	_
 22	ha	_	HV	HV	_	21	VG	_	_
 23	börjat	_	VV	VV	_	21	VG	_	_
-24	.	_	IP	IP	_	2	IP	_	_
+24	.	_	IP	IP	_	1	IP	_	_
 
 1	Före	_	PR	PR	_	4	RA	_	_
 2	denna	_	PO	PO	_	3	DT	_	_
@@ -5996,7 +5996,7 @@
 14	än	_	ID	ID	_	13	HD	_	_
 15	99	_	RO	RO	_	16	DT	_	_
 16	%	_	NN	NN	_	12	SP	_	_
-17	.	_	IP	IP	_	7	IP	_	_
+17	.	_	IP	IP	_	7	OO	_	_
 
 1	Mindre	_	AB	AB	_	4	CA	_	_
 2	än	_	ID	ID	_	1	HD	_	_
